@@ -1,0 +1,876 @@
+Record_ID,Car_Model,Model_Year,Mileage_KM,Fault_Category,Fault_Type,Severity,Parts_Required,Parts_Availability,Garage_Type,Mechanic_Expertise,Location,Day_of_Week,Time_of_Day,Actual_Repair_Hours
+1,Suzuki Alto,2013,154339,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Authorized,20,Mulatiyana,Wednesday,Morning,1.0
+2,Suzuki Alto,2015,127479,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,17,Paburana,Saturday,Evening,8.0
+3,Suzuki Alto,2017,111639,Brake,ABS Sensor Fault,Moderate,ABS Sensor,In Stock,Local,6,Padukka,Wednesday,Morning,4.0
+4,Suzuki Alto,2013,145865,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,25,Thalalla,Tuesday,Evening,0.75
+5,Suzuki Alto,2018,101572,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Local,13,Nupe,Friday,Evening,5.0
+6,Suzuki Alto,2015,123417,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Authorized,10,Walgama,Thursday,Afternoon,3.5
+7,Suzuki Alto,2021,65740,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,Order Required,Authorized,25,Nawimana,Thursday,Evening,5.0
+8,Suzuki Alto,2017,88631,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,5,Dehiwala,Monday,Morning,3.0
+9,Suzuki Alto,2017,90554,AC,AC Not Cooling,Moderate,Compressor,In Stock,Local,8,Modara,Friday,Evening,6.0
+10,Suzuki Alto,2015,122144,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Local,10,Pallimulla,Thursday,Evening,4.5
+11,Suzuki Alto,2021,66564,Brake,Brake Noise,Minor,Brake Pad Shims,Order Required,Authorized,12,Pallimulla,Wednesday,Evening,0.5
+12,Suzuki Alto,2013,154305,Engine,Engine Knocking,Major,Connecting Rod Bearings,Order Required,Authorized,6,Gandara,Saturday,Afternoon,21.5
+13,Suzuki Alto,2019,77819,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Local,11,Walgama,Wednesday,Afternoon,6.0
+14,Suzuki Alto,2012,165252,AC,Condenser Fan,Moderate,Condenser Fan Motor,In Stock,Local,18,Kaduwela,Thursday,Evening,1.8
+15,Suzuki Alto,2012,163683,Electrical,Battery Drain,Minor,Battery,In Stock,Local,6,Meddawatta,Thursday,Morning,1.7
+16,Suzuki Alto,2021,53834,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,11,Malimbada,Monday,Morning,3.0
+17,Suzuki Alto,2019,76208,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,2,Bambalapitiya,Monday,Morning,10.0
+18,Suzuki Alto,2018,90163,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,5,Seethawaka,Friday,Afternoon,5.0
+19,Suzuki Alto,2019,64505,AC,AC Resistor,Minor,Blower Resistor,Order Required,Local,13,Kamburupitiya,Thursday,Morning,2.5
+20,Suzuki Alto,2019,83321,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,2,Meddawatta,Friday,Morning,2.5
+21,Suzuki Alto,2020,58467,Body,Door Lock Issue,Minor,Door Lock Mechanism,Order Required,Local,15,Athuraliya,Tuesday,Afternoon,2.0
+22,Suzuki Alto,2012,165224,Engine,Water Pump Leak,Major,Water Pump,Order Required,Local,10,Meddawatta,Monday,Evening,9.5
+23,Suzuki Alto,2013,161970,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Local,13,Nawimana,Thursday,Evening,1.1
+24,Suzuki Alto,2019,65980,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,25,Modara,Saturday,Afternoon,1.0
+25,Suzuki Alto,2019,66270,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Local,9,Dehiwala,Tuesday,Evening,1.5
+26,Suzuki Alto,2013,145764,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Authorized,11,Nawimana,Tuesday,Afternoon,3.5
+27,Suzuki Alto,2019,79585,Engine,Piston Ring Wear,Major,Piston Rings+Honing,Order Required,Authorized,13,Thalalla,Thursday,Afternoon,17.5
+28,Suzuki Alto,2015,114903,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Authorized,4,Thalalla,Friday,Evening,11.5
+29,Suzuki Alto,2016,111443,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,13,Ratmalana,Saturday,Morning,3.0
+30,Suzuki Alto,2021,52478,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,1,Malimbada,Friday,Afternoon,3.5
+31,Suzuki Alto,2021,43510,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,25,Dondra,Wednesday,Evening,3.0
+32,Suzuki Alto,2016,111641,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Local,9,Thalalla,Monday,Evening,3.0
+33,Suzuki Alto,2017,95742,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Local,15,Matara,Friday,Evening,6.5
+34,Suzuki Alto,2015,124395,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Local,18,Athuraliya,Saturday,Evening,3.0
+35,Suzuki Alto,2020,69463,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Local,8,Dehiwala,Tuesday,Evening,1.25
+36,Suzuki Alto,2020,60329,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Local,7,Borella,Thursday,Evening,3.5
+37,Suzuki Alto,2019,87923,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,10,Akuressa,Saturday,Afternoon,2.5
+38,Suzuki Alto,2011,187786,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Authorized,1,Thalalla,Wednesday,Afternoon,6.5
+39,Suzuki Alto,2021,47154,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Local,11,Nupe,Tuesday,Morning,1.0
+40,Suzuki Alto,2019,82481,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,18,Maradana,Monday,Morning,1.0
+41,Suzuki Alto,2015,120217,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Local,10,Akuressa,Friday,Morning,1.0
+42,Suzuki Alto,2019,79006,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,13,Ratmalana,Saturday,Morning,3.0
+43,Suzuki Alto,2018,98072,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,20,Kolonnawa,Saturday,Morning,2.5
+44,Suzuki Alto,2019,70555,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Authorized,6,Kirinda Puhulwella,Thursday,Morning,4.0
+45,Suzuki Alto,2017,101425,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,10,Kamburupitiya,Thursday,Afternoon,2.0
+46,Suzuki Alto,2019,83659,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,4,Kolonnawa,Thursday,Evening,6.0
+47,Suzuki Alto,2020,57909,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,22,Paburana,Monday,Morning,3.0
+48,Suzuki Alto,2018,90409,AC,Compressor Failure,Major,Compressor+Belt,Order Required,Authorized,2,Walgama,Thursday,Morning,17.5
+49,Suzuki Alto,2021,50614,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,23,Athuraliya,Thursday,Morning,0.8
+50,Suzuki Alto,2016,117310,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Authorized,15,Nawimana,Saturday,Morning,3.5
+51,Suzuki Alto,2014,139205,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,3,Paburana,Tuesday,Morning,6.0
+52,Suzuki Alto,2015,137607,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Local,14,Nupe,Friday,Evening,7.0
+53,Suzuki Alto,2017,105121,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Local,17,Gandara,Tuesday,Evening,2.5
+54,Suzuki Alto,2015,127509,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,3,Kirulapone,Friday,Morning,6.0
+55,Suzuki Alto,2021,61886,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,6,Athuraliya,Friday,Afternoon,3.5
+56,Suzuki Alto,2018,86570,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,21,Kamburupitiya,Wednesday,Evening,3.5
+57,Suzuki Alto,2013,162574,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Local,12,Dikwella,Wednesday,Evening,2.5
+58,Suzuki Alto,2019,85163,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,15,Nupe,Saturday,Evening,2.5
+59,Suzuki Alto,2019,71161,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,6,Bambalapitiya,Thursday,Afternoon,2.5
+60,Suzuki Alto,2014,124910,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,1,Havelock Town,Friday,Morning,2.0
+61,Suzuki Alto,2017,104569,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Local,16,Kotapola,Monday,Morning,6.5
+62,Suzuki Alto,2018,83010,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,3,Dikwella,Monday,Afternoon,1.1
+63,Suzuki Alto,2020,55175,Brake,Brake Noise,Minor,Brake Pad Shims,Order Required,Local,2,Dikwella,Wednesday,Morning,1.8
+64,Suzuki Alto,2019,89505,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Authorized,2,Walgama,Wednesday,Afternoon,3.0
+65,Suzuki Alto,2015,128085,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,Order Required,Local,5,Maradana,Tuesday,Morning,7.0
+66,Suzuki Alto,2019,73457,AC,AC Belt,Minor,AC Belt,In Stock,Local,10,Maradana,Thursday,Evening,1.0
+67,Suzuki Alto,2016,101472,Engine,Spark Plug Change,Minor,Spark Plugs,Order Required,Authorized,7,Nupe,Monday,Afternoon,3.0
+68,Suzuki Alto,2021,42449,AC,AC Not Cooling,Moderate,Compressor,Order Required,Authorized,6,Mulatiyana,Monday,Morning,20.0
+69,Suzuki Alto,2021,58002,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,24,Dikwella,Friday,Morning,4.0
+70,Suzuki Alto,2018,78456,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,5,Nawimana,Monday,Morning,2.5
+71,Suzuki Alto,2016,110409,Transmission,Transmission Jerking,Moderate,Transmission Fluid,Order Required,Local,14,Dondra,Tuesday,Afternoon,2.0
+72,Suzuki Alto,2020,79011,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Local,11,Nupe,Monday,Morning,4.0
+73,Suzuki Alto,2019,64548,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Authorized,6,Seethawaka,Saturday,Evening,0.8
+74,Suzuki Alto,2018,86385,AC,AC Not Cooling,Moderate,Compressor,In Stock,Authorized,8,Malimbada,Thursday,Afternoon,5.0
+75,Suzuki Alto,2017,106085,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Local,17,Thihagoda,Friday,Morning,1.7
+76,Suzuki Alto,2019,82873,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,2,Devinuwara,Thursday,Morning,4.0
+77,Suzuki Alto,2019,88803,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,4,Bambalapitiya,Wednesday,Morning,0.7
+78,Suzuki Alto,2015,138188,AC,Evaporator Leak,Major,Evaporator Core,In Stock,Authorized,22,Devinuwara,Friday,Morning,6.5
+79,Suzuki Alto,2014,149246,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,6,Seethawaka,Thursday,Afternoon,1.9
+80,Suzuki Alto,2020,61775,Engine,Oil Leak (Gasket),Minor,Gasket Set,Order Required,Authorized,15,Kaduwela,Saturday,Afternoon,4.5
+81,Suzuki Alto,2013,146493,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,2,Kaduwela,Friday,Morning,4.5
+82,Suzuki Alto,2020,62626,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,1,Kaduwela,Saturday,Evening,2.0
+83,Suzuki Alto,2017,98123,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Local,15,Pallimulla,Tuesday,Evening,1.0
+84,Suzuki Alto,2017,91541,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,7,Welipitiya,Friday,Evening,2.0
+85,Suzuki Alto,2021,54486,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,21,Nupe,Wednesday,Afternoon,0.9
+86,Suzuki Alto,2019,85019,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,1,Akuressa,Saturday,Evening,4.5
+87,Suzuki Alto,2015,128009,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,11,Athuraliya,Monday,Evening,5.5
+88,Suzuki Alto,2015,136594,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,3,Walgama,Monday,Morning,4.0
+89,Suzuki Alto,2012,166927,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,15,Kirulapone,Monday,Evening,0.8
+90,Suzuki Alto,2016,125987,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,22,Kaduwela,Tuesday,Morning,1.2
+91,Suzuki Alto,2012,151993,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,22,Kesbewa,Wednesday,Morning,0.4
+92,Suzuki Alto,2019,87624,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Local,5,Kotapola,Friday,Afternoon,4.0
+93,Suzuki Alto,2020,58202,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Authorized,15,Weligama,Saturday,Morning,11.0
+94,Suzuki Alto,2011,187513,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,14,Kesbewa,Saturday,Morning,4.0
+95,Suzuki Alto,2018,99454,AC,AC Belt,Minor,AC Belt,In Stock,Authorized,12,Nawimana,Friday,Evening,1.3
+96,Suzuki Alto,2015,124174,AC,AC Not Cooling,Moderate,Compressor,In Stock,Authorized,14,Pallimulla,Saturday,Evening,11.5
+97,Suzuki Alto,2012,151512,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Local,24,Kamburupitiya,Wednesday,Afternoon,2.0
+98,Suzuki Alto,2018,100891,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Authorized,1,Pallimulla,Monday,Morning,2.0
+99,Suzuki Alto,2020,59607,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,6,Kirulapone,Tuesday,Morning,1.3
+100,Suzuki Alto,2011,179342,AC,AC Belt,Minor,AC Belt,In Stock,Local,15,Gandara,Wednesday,Evening,1.1
+101,Suzuki Alto,2020,79751,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Local,3,Ratmalana,Saturday,Afternoon,4.0
+102,Suzuki Alto,2021,52174,AC,Condenser Fan,Moderate,Condenser Fan Motor,In Stock,Authorized,22,Dikwella,Wednesday,Morning,7.5
+103,Suzuki Alto,2017,96843,AC,AC Gas Refill,Minor,Refrigerant Gas,Order Required,Authorized,22,Mulatiyana,Monday,Evening,4.0
+104,Suzuki Alto,2016,108689,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,1,Dehiwala,Monday,Afternoon,6.0
+105,Suzuki Alto,2016,123194,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,Order Required,Local,8,Dikwella,Friday,Evening,12.0
+106,Suzuki Alto,2015,117679,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Authorized,14,Kotapola,Thursday,Afternoon,1.3
+107,Suzuki Alto,2011,165535,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,3,Meddawatta,Thursday,Morning,4.5
+108,Suzuki Alto,2015,130963,AC,Compressor Failure,Major,Compressor+Belt,In Stock,Local,22,Devinuwara,Monday,Afternoon,6.0
+109,Suzuki Alto,2018,99446,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Authorized,1,Kotapola,Saturday,Evening,4.5
+110,Suzuki Alto,2014,139237,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Authorized,6,Welipitiya,Wednesday,Afternoon,0.3
+111,Suzuki Alto,2015,112024,Brake,ABS Sensor Fault,Moderate,ABS Sensor,In Stock,Authorized,5,Devinuwara,Wednesday,Afternoon,4.0
+112,Suzuki Alto,2015,131272,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,11,Nawimana,Friday,Morning,3.0
+113,Suzuki Alto,2016,117343,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,10,Dehiwala,Wednesday,Afternoon,1.8
+114,Suzuki Alto,2015,116973,Transmission,Gear Selector Cable,Minor,Selector Cable,Order Required,Authorized,9,Kesbewa,Tuesday,Afternoon,2.0
+115,Suzuki Alto,2018,97109,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,21,Thalalla,Monday,Morning,1.7
+116,Suzuki Alto,2017,110934,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,25,Dondra,Friday,Morning,1.0
+117,Suzuki Alto,2016,119862,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Local,13,Borella,Saturday,Afternoon,3.0
+118,Suzuki Alto,2017,90781,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,22,Dikwella,Friday,Morning,2.5
+119,Suzuki Alto,2016,101425,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Local,1,Nupe,Wednesday,Afternoon,14.5
+120,Suzuki Alto,2017,97864,AC,AC Not Cooling,Moderate,Compressor,In Stock,Authorized,5,Pallimulla,Wednesday,Morning,8.0
+121,Suzuki Alto,2015,127613,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,In Stock,Authorized,13,Kolonnawa,Thursday,Afternoon,6.0
+122,Suzuki Alto,2021,40343,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,2,Hiththetiya,Friday,Evening,2.0
+123,Suzuki Alto,2015,128633,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,9,Nawimana,Thursday,Evening,2.5
+124,Suzuki Alto,2020,61503,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,21,Kolonnawa,Tuesday,Afternoon,0.4
+125,Suzuki Alto,2018,99884,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Authorized,23,Kolonnawa,Tuesday,Morning,7.0
+126,Suzuki Alto,2019,78010,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,2,Kollupitiya,Monday,Morning,0.8
+127,Suzuki Alto,2015,125221,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Local,6,Havelock Town,Saturday,Morning,4.0
+128,Suzuki Alto,2013,136459,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,19,Pitabeddara,Saturday,Evening,6.0
+129,Suzuki Alto,2019,64138,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,4,Dehiwala,Friday,Evening,1.2
+130,Suzuki Alto,2015,113253,Brake,Master Cylinder Failure,Major,Master Cylinder,Order Required,Local,17,Dondra,Wednesday,Evening,6.5
+131,Suzuki Alto,2015,125399,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,Order Required,Authorized,1,Gandara,Saturday,Morning,8.0
+132,Suzuki Alto,2015,116842,AC,AC Resistor,Minor,Blower Resistor,Order Required,Authorized,6,Matara,Saturday,Afternoon,2.5
+133,Suzuki Alto,2021,50974,Transmission,Reverse Gear Failure,Major,Transmission Rebuild,In Stock,Local,11,Dondra,Saturday,Evening,54.0
+134,Suzuki Alto,2015,135465,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,20,Maradana,Tuesday,Evening,2.5
+135,Suzuki Alto,2020,53269,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Authorized,16,Kaduwela,Tuesday,Afternoon,1.7
+136,Suzuki Alto,2016,103594,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,8,Hiththetiya,Saturday,Morning,4.0
+137,Suzuki Alto,2017,114309,Body,Window Glass Crack,Minor,Window Glass,Order Required,Local,3,Dikwella,Tuesday,Morning,5.0
+138,Suzuki Alto,2015,130947,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,17,Dehiwala,Tuesday,Afternoon,3.0
+139,Suzuki Alto,2016,125367,AC,AC Belt,Minor,AC Belt,In Stock,Local,17,Hiththetiya,Tuesday,Evening,1.3
+140,Suzuki Alto,2021,62494,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,22,Hiththetiya,Wednesday,Morning,2.0
+141,Suzuki Alto,2013,162805,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,Order Required,Authorized,11,Weligama,Monday,Afternoon,5.0
+142,Suzuki Alto,2013,161431,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,23,Maradana,Tuesday,Afternoon,1.8
+143,Suzuki Alto,2020,58568,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Authorized,12,Nupe,Wednesday,Afternoon,1.0
+144,Suzuki Alto,2011,180939,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Local,4,Kesbewa,Friday,Morning,1.1
+145,Suzuki Alto,2013,151004,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,5,Akuressa,Friday,Afternoon,1.7
+146,Suzuki Alto,2021,46412,Engine,Coolant Leak,Moderate,Radiator Hose,Order Required,Local,23,Kamburupitiya,Monday,Morning,2.0
+147,Suzuki Alto,2021,40515,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Authorized,12,Kaduwela,Saturday,Evening,0.6
+148,Suzuki Alto,2011,187906,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,3,Welipitiya,Tuesday,Evening,3.0
+149,Suzuki Alto,2020,57225,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,22,Weligama,Monday,Evening,2.5
+150,Suzuki Alto,2018,86208,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Authorized,23,Akuressa,Wednesday,Afternoon,3.0
+151,Suzuki Alto,2017,97999,AC,AC Pressure Switch,Minor,Pressure Switch,Order Required,Authorized,17,Kirulapone,Monday,Morning,3.0
+152,Suzuki Alto,2017,103744,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Authorized,1,Meddawatta,Saturday,Evening,7.0
+153,Suzuki Alto,2012,168557,AC,AC Not Cooling,Moderate,Compressor,In Stock,Authorized,11,Borella,Wednesday,Morning,6.5
+154,Suzuki Alto,2017,96984,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,23,Modara,Friday,Evening,6.0
+155,Suzuki Alto,2019,75704,AC,Blower Motor Issues,Minor,Blower Motor,Order Required,Local,15,Modara,Monday,Afternoon,4.0
+156,Suzuki Alto,2019,88704,Electrical,Battery Drain,Minor,Battery,In Stock,Local,2,Walgama,Thursday,Evening,2.5
+157,Suzuki Alto,2013,146728,Electrical,Horn Not Working,Minor,Horn Relay,Order Required,Authorized,5,Matara,Friday,Afternoon,0.7
+158,Suzuki Alto,2017,88786,Suspension,Shock Absorber Noise,Moderate,Front Shocks,Order Required,Local,4,Kesbewa,Tuesday,Evening,5.0
+159,Suzuki Alto,2012,165215,Electrical,Battery Drain,Minor,Battery,In Stock,Local,2,Seethawaka,Friday,Morning,2.5
+160,Suzuki Alto,2016,109124,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,17,Dondra,Friday,Evening,1.8
+161,Suzuki Alto,2017,115486,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Local,4,Dondra,Wednesday,Evening,4.0
+162,Suzuki Alto,2016,114919,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,4,Nupe,Tuesday,Morning,1.6
+163,Suzuki Alto,2011,165498,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Authorized,6,Welipitiya,Wednesday,Morning,2.0
+164,Suzuki Alto,2015,123943,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Authorized,6,Dikwella,Thursday,Morning,4.5
+165,Suzuki Alto,2017,90161,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,12,Kirinda Puhulwella,Thursday,Evening,1.3
+166,Suzuki Alto,2019,79223,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,9,Seethawaka,Monday,Morning,4.5
+167,Suzuki Alto,2021,54185,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,11,Pasgoda,Wednesday,Afternoon,3.0
+168,Suzuki Alto,2019,88262,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,11,Slave Island,Saturday,Afternoon,2.0
+169,Suzuki Alto,2011,177547,Brake,Brake Booster Failure,Major,Brake Booster,Order Required,Authorized,15,Nupe,Saturday,Afternoon,8.5
+170,Suzuki Alto,2017,110937,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Local,11,Meddawatta,Friday,Evening,5.5
+171,Suzuki Alto,2018,97905,Engine,Head Gasket Leak,Major,Head Gasket Kit,In Stock,Authorized,5,Paburana,Tuesday,Evening,13.0
+172,Suzuki Alto,2017,114449,Transmission,Gear Selector Cable,Minor,Selector Cable,Order Required,Local,13,Dikwella,Friday,Evening,4.0
+173,Suzuki Alto,2021,52302,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Local,12,Kollupitiya,Monday,Afternoon,2.0
+174,Suzuki Alto,2019,69116,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,6,Kirinda Puhulwella,Wednesday,Evening,3.0
+175,Suzuki Alto,2014,136807,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,1,Ratmalana,Thursday,Evening,3.0
+176,Suzuki Alto,2013,154292,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,2,Paburana,Saturday,Afternoon,0.8
+177,Suzuki Alto,2019,79764,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,2,Kollupitiya,Thursday,Afternoon,41.0
+178,Suzuki Alto,2016,123335,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,6,Thalalla,Saturday,Morning,1.5
+179,Suzuki Alto,2021,51195,Engine,Piston Ring Wear,Major,Piston Rings+Honing,In Stock,Authorized,7,Thalalla,Tuesday,Evening,13.5
+180,Suzuki Alto,2019,80323,Brake,Master Cylinder Failure,Major,Master Cylinder,Order Required,Local,11,Malimbada,Wednesday,Afternoon,10.0
+181,Suzuki Alto,2018,95659,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,14,Kamburupitiya,Friday,Evening,1.4
+182,Suzuki Alto,2011,176779,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Local,2,Mulatiyana,Saturday,Afternoon,1.5
+183,Suzuki Alto,2016,120502,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,6,Pallimulla,Monday,Evening,2.5
+184,Suzuki Alto,2015,137984,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Local,10,Nawimana,Saturday,Afternoon,1.2
+185,Suzuki Alto,2020,71380,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,15,Ratmalana,Monday,Afternoon,1.7
+186,Suzuki Alto,2021,55937,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,10,Kolonnawa,Wednesday,Afternoon,2.0
+187,Suzuki Alto,2014,138540,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,5,Nawimana,Wednesday,Evening,7.0
+188,Suzuki Alto,2015,132144,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,7,Athuraliya,Friday,Evening,2.0
+189,Suzuki Alto,2019,68060,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Authorized,18,Akuressa,Monday,Afternoon,1.3
+190,Suzuki Alto,2021,61925,AC,AC Belt,Minor,AC Belt,In Stock,Local,3,Pallimulla,Wednesday,Morning,1.7
+191,Suzuki Alto,2014,149847,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Authorized,20,Dikwella,Wednesday,Evening,3.5
+192,Suzuki Alto,2018,101248,AC,Condenser Fan,Moderate,Condenser Fan Motor,Order Required,Local,2,Kolonnawa,Tuesday,Morning,5.0
+193,Suzuki Alto,2011,166105,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,9,Hiththetiya,Tuesday,Afternoon,2.5
+194,Suzuki Alto,2015,129246,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,3,Padukka,Saturday,Morning,1.2
+195,Suzuki Alto,2018,88329,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,15,Akuressa,Friday,Afternoon,2.5
+196,Suzuki Alto,2017,107040,Electrical,Wiper Motor Failure,Minor,Wiper Motor,Order Required,Local,6,Walgama,Wednesday,Morning,4.0
+197,Suzuki Alto,2016,107031,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,13,Hiththetiya,Thursday,Afternoon,6.5
+198,Suzuki Alto,2016,119853,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Authorized,13,Seethawaka,Thursday,Morning,3.5
+199,Suzuki Alto,2015,134240,Engine,Oil Leak (Gasket),Minor,Gasket Set,Order Required,Local,13,Pitabeddara,Tuesday,Evening,3.5
+200,Suzuki Alto,2015,139647,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,Order Required,Authorized,15,Kesbewa,Saturday,Morning,5.0
+201,Suzuki Alto,2017,106096,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Authorized,4,Devinuwara,Saturday,Morning,2.0
+202,Suzuki Alto,2015,133739,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Authorized,15,Hiththetiya,Thursday,Afternoon,1.5
+203,Suzuki Alto,2012,154823,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Local,9,Pasgoda,Thursday,Evening,1.4
+204,Suzuki Alto,2015,134838,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,9,Matara,Saturday,Morning,1.0
+205,Suzuki Alto,2012,174349,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,21,Dehiwala,Monday,Afternoon,2.0
+206,Suzuki Alto,2019,78381,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,7,Weligama,Friday,Morning,6.0
+207,Suzuki Alto,2018,90670,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Authorized,8,Devinuwara,Wednesday,Morning,10.0
+208,Suzuki Alto,2018,100691,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,15,Hiththetiya,Saturday,Evening,3.5
+209,Suzuki Alto,2012,164316,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Authorized,7,Pasgoda,Wednesday,Evening,8.5
+210,Suzuki Alto,2020,73679,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,15,Welipitiya,Friday,Morning,1.25
+211,Suzuki Alto,2021,52955,Suspension,Shock Absorber Noise,Moderate,Front Shocks,Order Required,Local,5,Pallimulla,Monday,Morning,9.5
+212,Suzuki Alto,2018,100109,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Local,10,Ratmalana,Monday,Afternoon,4.0
+213,Suzuki Alto,2015,116050,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Local,7,Walgama,Wednesday,Morning,5.5
+214,Suzuki Alto,2019,86229,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,13,Akuressa,Tuesday,Evening,5.0
+215,Suzuki Alto,2015,119393,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Authorized,1,Weligama,Saturday,Evening,4.5
+216,Suzuki Alto,2020,60195,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,13,Slave Island,Friday,Evening,1.5
+217,Suzuki Alto,2012,159165,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,4,Paburana,Saturday,Morning,5.0
+218,Suzuki Alto,2016,120056,Electrical,Battery Drain,Minor,Battery,In Stock,Local,5,Matara,Friday,Morning,2.5
+219,Suzuki Alto,2018,93219,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Authorized,17,Kirulapone,Wednesday,Evening,6.0
+220,Suzuki Alto,2019,70106,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Local,10,Dondra,Thursday,Afternoon,5.5
+221,Suzuki Alto,2019,64462,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,1,Welipitiya,Friday,Evening,10.5
+222,Suzuki Alto,2011,176967,Engine,Water Pump Leak,Major,Water Pump,In Stock,Local,1,Nawimana,Wednesday,Afternoon,10.0
+223,Suzuki Alto,2017,92718,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,9,Gandara,Tuesday,Morning,1.9
+224,Suzuki Alto,2012,150310,Engine,Oil Pump Failure,Major,Oil Pump,Order Required,Authorized,6,Kotapola,Wednesday,Afternoon,20.5
+225,Suzuki Alto,2020,71351,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Authorized,11,Kolonnawa,Thursday,Evening,4.0
+226,Suzuki Alto,2012,161458,Engine,Coolant Leak,Moderate,Radiator Hose,Order Required,Local,21,Kolonnawa,Friday,Evening,4.0
+227,Suzuki Alto,2017,109086,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,11,Thalalla,Friday,Afternoon,8.0
+228,Suzuki Alto,2017,89343,AC,Evaporator Leak,Major,Evaporator Core,Order Required,Authorized,6,Akuressa,Tuesday,Evening,11.0
+229,Suzuki Alto,2019,70604,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,15,Athuraliya,Tuesday,Evening,0.6
+230,Suzuki Alto,2013,142769,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Authorized,7,Matara,Wednesday,Evening,4.0
+231,Suzuki Alto,2018,89473,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,15,Malimbada,Tuesday,Morning,1.9
+232,Suzuki Alto,2021,53840,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,11,Grandpass,Wednesday,Evening,6.5
+233,Suzuki Alto,2019,91731,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Local,13,Nawimana,Thursday,Afternoon,3.5
+234,Suzuki Alto,2013,158677,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Authorized,9,Kirinda Puhulwella,Tuesday,Morning,1.6
+235,Suzuki Alto,2017,115847,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,9,Hakmana,Monday,Afternoon,3.5
+236,Suzuki Alto,2020,68623,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,7,Ratmalana,Monday,Afternoon,7.0
+237,Suzuki Alto,2021,62668,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Local,6,Thihagoda,Wednesday,Morning,3.0
+238,Suzuki Alto,2018,79369,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Local,25,Kaduwela,Saturday,Morning,8.0
+239,Suzuki Alto,2016,124906,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Authorized,20,Kaduwela,Saturday,Evening,1.0
+240,Suzuki Alto,2021,67014,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,5,Modara,Friday,Morning,4.5
+241,Suzuki Alto,2021,58208,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,24,Bambalapitiya,Friday,Morning,1.6
+242,Suzuki Alto,2017,91528,Brake,ABS Sensor Fault,Moderate,ABS Sensor,In Stock,Authorized,4,Thalalla,Tuesday,Evening,4.0
+243,Suzuki Alto,2020,53725,AC,Evaporator Leak,Major,Evaporator Core,In Stock,Local,15,Thalalla,Monday,Morning,14.0
+244,Suzuki Alto,2020,60428,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,4,Pallimulla,Monday,Morning,1.4
+245,Suzuki Alto,2016,119123,AC,Evaporator Leak,Major,Evaporator Core,Order Required,Authorized,8,Maradana,Thursday,Evening,13.5
+246,Suzuki Alto,2017,99005,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,2,Hakmana,Friday,Evening,1.6
+247,Suzuki Alto,2019,82167,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,11,Dikwella,Thursday,Afternoon,3.0
+248,Suzuki Alto,2021,44629,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,Order Required,Authorized,8,Grandpass,Saturday,Afternoon,9.0
+249,Suzuki Alto,2016,113485,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Local,10,Pasgoda,Thursday,Morning,3.0
+250,Suzuki Alto,2015,120083,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,5,Kollupitiya,Saturday,Evening,2.5
+251,Suzuki Alto,2016,125052,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,20,Thalalla,Wednesday,Evening,0.7
+252,Suzuki Alto,2011,179298,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Authorized,14,Padukka,Monday,Afternoon,6.0
+253,Suzuki Alto,2012,151140,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Authorized,9,Ratmalana,Monday,Evening,1.1
+254,Suzuki Alto,2015,134470,AC,Condenser Fan,Moderate,Condenser Fan Motor,In Stock,Local,1,Dondra,Wednesday,Afternoon,4.0
+255,Suzuki Alto,2018,88565,Engine,Oil Pump Failure,Major,Oil Pump,Order Required,Authorized,10,Dikwella,Wednesday,Evening,18.0
+256,Suzuki Alto,2019,81157,Engine,Oil Pump Failure,Major,Oil Pump,Order Required,Authorized,4,Kotapola,Wednesday,Afternoon,19.0
+257,Suzuki Alto,2011,176317,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Local,6,Dehiwala,Saturday,Evening,2.0
+258,Suzuki Alto,2016,102390,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,Order Required,Authorized,19,Pallimulla,Tuesday,Afternoon,13.0
+259,Suzuki Alto,2016,112059,AC,Condenser Fan,Moderate,Condenser Fan Motor,Order Required,Authorized,7,Borella,Saturday,Afternoon,7.5
+260,Suzuki Alto,2020,78555,Electrical,Alternator Belt,Minor,Alternator Belt,Order Required,Authorized,2,Pallimulla,Thursday,Evening,4.5
+261,Suzuki Alto,2016,110179,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Authorized,12,Malimbada,Saturday,Afternoon,9.0
+262,Suzuki Alto,2015,137324,Transmission,Clutch Slipping,Major,Clutch Kit Complete,In Stock,Local,7,Weligama,Wednesday,Evening,8.0
+263,Suzuki Alto,2017,108933,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,9,Devinuwara,Monday,Afternoon,0.3
+264,Suzuki Alto,2017,104733,Brake,Brake Fluid Leak,Moderate,Brake Lines,Order Required,Authorized,18,Kesbewa,Friday,Afternoon,3.5
+265,Suzuki Alto,2015,132508,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,13,Akuressa,Monday,Evening,2.0
+266,Suzuki Alto,2018,98318,Brake,ABS Sensor Fault,Moderate,ABS Sensor,In Stock,Authorized,5,Havelock Town,Thursday,Evening,5.5
+267,Suzuki Alto,2021,63001,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,18,Paburana,Friday,Evening,2.0
+268,Suzuki Alto,2019,74199,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Local,15,Kaduwela,Saturday,Morning,5.0
+269,Suzuki Alto,2021,54205,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,14,Slave Island,Tuesday,Evening,2.0
+270,Suzuki Alto,2020,54813,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,1,Dondra,Tuesday,Morning,2.5
+271,Suzuki Alto,2011,183836,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,15,Akuressa,Wednesday,Evening,2.5
+272,Suzuki Alto,2015,127779,Engine,Turbo Failure,Major,Turbocharger,Order Required,Local,24,Kollupitiya,Monday,Afternoon,15.5
+273,Suzuki Alto,2018,97429,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,5,Meddawatta,Monday,Morning,1.7
+274,Suzuki Alto,2015,117996,Electrical,Battery Drain,Minor,Battery,In Stock,Local,4,Dikwella,Saturday,Afternoon,3.0
+275,Suzuki Alto,2020,64288,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,8,Paburana,Monday,Afternoon,3.5
+276,Suzuki Alto,2013,162834,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,15,Welipitiya,Tuesday,Morning,4.0
+277,Suzuki Alto,2018,85689,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,8,Pasgoda,Friday,Evening,0.8
+278,Suzuki Alto,2016,108201,Engine,Coolant Leak,Moderate,Radiator Hose,Order Required,Local,4,Dondra,Thursday,Afternoon,8.0
+279,Suzuki Alto,2016,119388,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Authorized,10,Kollupitiya,Wednesday,Afternoon,38.5
+280,Suzuki Alto,2015,138047,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Local,9,Padukka,Monday,Evening,3.5
+281,Suzuki Alto,2016,106277,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,6,Maradana,Tuesday,Evening,6.5
+282,Suzuki Alto,2016,121172,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Authorized,3,Matara,Monday,Afternoon,3.0
+283,Suzuki Alto,2016,106327,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,7,Kirulapone,Tuesday,Morning,2.5
+284,Suzuki Alto,2014,144675,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Authorized,9,Seethawaka,Tuesday,Afternoon,5.0
+285,Suzuki Alto,2020,52316,Transmission,Transmission Jerking,Moderate,Transmission Fluid,Order Required,Local,7,Kamburupitiya,Monday,Afternoon,4.0
+286,Suzuki Alto,2013,159447,Brake,Brake Booster Failure,Major,Brake Booster,In Stock,Local,7,Akuressa,Tuesday,Evening,9.0
+287,Suzuki Alto,2019,69067,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Authorized,10,Walgama,Tuesday,Afternoon,7.0
+288,Suzuki Alto,2016,113148,Electrical,Complete Alternator Failure,Major,Alternator Complete,Order Required,Local,2,Dondra,Friday,Morning,14.0
+289,Suzuki Alto,2021,62370,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,7,Bambalapitiya,Wednesday,Afternoon,3.0
+290,Suzuki Alto,2021,41394,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,2,Walgama,Tuesday,Evening,1.5
+291,Suzuki Alto,2018,85796,Electrical,Battery Drain,Minor,Battery,In Stock,Local,3,Pasgoda,Thursday,Afternoon,5.0
+292,Suzuki Alto,2019,80506,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Authorized,2,Ratmalana,Tuesday,Afternoon,10.0
+293,Suzuki Alto,2018,90919,AC,Compressor Failure,Major,Compressor+Belt,In Stock,Local,17,Kirulapone,Tuesday,Afternoon,4.0
+294,Suzuki Alto,2020,60050,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Local,2,Meddawatta,Friday,Morning,9.0
+295,Suzuki Alto,2019,64917,Electrical,Battery Drain,Minor,Battery,In Stock,Local,9,Kollupitiya,Saturday,Evening,2.0
+296,Suzuki Alto,2016,115590,Transmission,Reverse Gear Failure,Major,Transmission Rebuild,In Stock,Local,17,Seethawaka,Wednesday,Morning,10.5
+297,Suzuki Alto,2017,112498,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,8,Weligama,Tuesday,Morning,3.0
+298,Suzuki Alto,2015,117412,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Local,4,Pallimulla,Saturday,Afternoon,5.5
+299,Suzuki Alto,2016,123418,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,2,Maradana,Tuesday,Morning,2.5
+300,Suzuki Alto,2020,77837,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,2,Maradana,Thursday,Evening,0.5
+301,Suzuki Alto,2015,118267,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Authorized,2,Seethawaka,Tuesday,Morning,5.5
+302,Suzuki Alto,2021,44175,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,13,Welipitiya,Thursday,Morning,2.0
+303,Suzuki Alto,2017,105760,AC,AC Not Cooling,Moderate,Compressor,In Stock,Local,5,Thalalla,Friday,Evening,6.0
+304,Suzuki Alto,2016,109642,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,24,Kolonnawa,Wednesday,Morning,1.5
+305,Suzuki Alto,2016,106410,AC,AC Resistor,Minor,Blower Resistor,In Stock,Local,11,Pasgoda,Saturday,Morning,1.4
+306,Suzuki Alto,2016,104746,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,11,Grandpass,Monday,Evening,1.0
+307,Suzuki Alto,2016,112222,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,7,Thihagoda,Wednesday,Morning,3.5
+308,Suzuki Alto,2018,91303,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,6,Pasgoda,Tuesday,Afternoon,2.0
+309,Suzuki Alto,2016,108552,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,18,Kesbewa,Tuesday,Evening,2.0
+310,Suzuki Alto,2018,98290,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,7,Devinuwara,Saturday,Evening,2.0
+311,Suzuki Alto,2019,66059,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,12,Ratmalana,Saturday,Afternoon,4.0
+312,Suzuki Alto,2018,103247,Electrical,Sensor Malfunction,Minor,O2 Sensor,Order Required,Authorized,7,Gandara,Wednesday,Evening,5.0
+313,Suzuki Alto,2011,170315,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,4,Grandpass,Friday,Evening,2.5
+314,Suzuki Alto,2019,70562,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,4,Kolonnawa,Thursday,Morning,5.0
+315,Suzuki Alto,2021,66956,Electrical,Complete Alternator Failure,Major,Alternator Complete,Order Required,Authorized,1,Mulatiyana,Friday,Afternoon,10.5
+316,Suzuki Alto,2019,74201,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,4,Athuraliya,Thursday,Morning,1.9
+317,Suzuki Alto,2017,108610,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,6,Nawimana,Wednesday,Afternoon,3.0
+318,Suzuki Alto,2017,88481,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,Order Required,Authorized,5,Kolonnawa,Friday,Morning,18.0
+319,Suzuki Alto,2020,57816,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Authorized,4,Grandpass,Tuesday,Afternoon,3.0
+320,Suzuki Alto,2018,100346,Engine,Oil Leak (Gasket),Minor,Gasket Set,Order Required,Authorized,5,Kotapola,Tuesday,Evening,0.3
+321,Suzuki Alto,2020,77806,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,9,Walgama,Friday,Afternoon,1.25
+322,Suzuki Alto,2020,65752,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,5,Slave Island,Thursday,Morning,7.0
+323,Suzuki Alto,2017,109439,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,8,Padukka,Saturday,Afternoon,5.0
+324,Suzuki Alto,2021,41807,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Local,12,Devinuwara,Saturday,Afternoon,5.0
+325,Suzuki Alto,2019,84494,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,In Stock,Local,7,Kesbewa,Friday,Morning,12.0
+326,Suzuki Alto,2012,153507,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,7,Akuressa,Thursday,Morning,7.5
+327,Suzuki Alto,2018,100327,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,6,Pasgoda,Saturday,Afternoon,1.8
+328,Suzuki Alto,2019,90277,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Authorized,12,Devinuwara,Friday,Evening,9.5
+329,Suzuki Alto,2015,133062,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,15,Bambalapitiya,Thursday,Evening,3.5
+330,Suzuki Alto,2015,120013,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,3,Padukka,Saturday,Morning,1.1
+331,Suzuki Alto,2014,124954,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,5,Ratmalana,Wednesday,Evening,6.5
+332,Suzuki Alto,2011,167257,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,16,Kamburupitiya,Tuesday,Morning,3.0
+333,Suzuki Alto,2017,105968,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,25,Welipitiya,Friday,Afternoon,6.5
+334,Suzuki Alto,2017,92679,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,9,Thihagoda,Thursday,Morning,6.0
+335,Suzuki Alto,2018,86836,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Authorized,8,Akuressa,Wednesday,Evening,14.5
+336,Suzuki Alto,2018,95320,Suspension,Strut Mount,Moderate,Strut Mounting,Order Required,Authorized,3,Kolonnawa,Saturday,Afternoon,6.5
+337,Suzuki Alto,2016,108953,Body,Window Glass Crack,Minor,Window Glass,In Stock,Authorized,13,Meddawatta,Wednesday,Morning,2.0
+338,Suzuki Alto,2019,73134,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Local,2,Nupe,Saturday,Evening,4.0
+339,Suzuki Alto,2020,66641,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,1,Dondra,Tuesday,Evening,2.0
+340,Suzuki Alto,2021,65649,Transmission,Clutch Slipping,Major,Clutch Kit Complete,In Stock,Local,19,Hiththetiya,Monday,Morning,6.0
+341,Suzuki Alto,2017,100599,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,23,Nawimana,Monday,Evening,2.5
+342,Suzuki Alto,2017,105525,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Authorized,12,Thihagoda,Friday,Morning,5.5
+343,Suzuki Alto,2020,69298,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Local,19,Kolonnawa,Tuesday,Afternoon,4.5
+344,Suzuki Alto,2018,80524,Electrical,Central Locking Fault,Minor,Central Lock Actuator,Order Required,Local,7,Nawimana,Wednesday,Afternoon,4.0
+345,Suzuki Alto,2016,111846,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,3,Borella,Friday,Evening,5.5
+346,Suzuki Alto,2020,78764,Electrical,Horn Not Working,Minor,Horn Relay,Order Required,Local,4,Kolonnawa,Friday,Afternoon,1.25
+347,Suzuki Alto,2016,107739,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,8,Dehiwala,Saturday,Afternoon,5.0
+348,Suzuki Alto,2018,81609,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,Order Required,Authorized,12,Walgama,Wednesday,Morning,6.5
+349,Suzuki Alto,2015,126117,Engine,Exhaust Smoke,Major,Valve Seals,In Stock,Authorized,10,Kirulapone,Thursday,Evening,12.0
+350,Suzuki Alto,2015,123157,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Authorized,8,Padukka,Tuesday,Afternoon,3.0
+351,Suzuki Alto,2020,77426,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Local,10,Meddawatta,Friday,Evening,3.0
+352,Suzuki Alto,2019,67061,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,Order Required,Authorized,6,Hiththetiya,Wednesday,Afternoon,1.9
+353,Suzuki Alto,2021,59282,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Authorized,15,Meddawatta,Tuesday,Evening,0.8
+354,Suzuki Alto,2015,136213,Engine,Turbo Failure,Major,Turbocharger,Order Required,Authorized,20,Meddawatta,Friday,Morning,42.5
+355,Suzuki Alto,2021,52875,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,2,Padukka,Saturday,Evening,5.5
+356,Suzuki Alto,2017,99720,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,4,Bambalapitiya,Monday,Morning,2.5
+357,Suzuki Alto,2017,113749,Engine,Exhaust Smoke,Major,Valve Seals,In Stock,Local,10,Pasgoda,Saturday,Evening,11.5
+358,Suzuki Alto,2015,123445,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,5,Seethawaka,Monday,Evening,6.0
+359,Suzuki Alto,2017,101807,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,14,Pasgoda,Friday,Evening,0.8
+360,Suzuki Alto,2015,115824,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Authorized,9,Mulatiyana,Monday,Morning,5.0
+361,Suzuki Alto,2014,147785,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,1,Akuressa,Thursday,Afternoon,3.0
+362,Suzuki Alto,2015,127213,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,2,Dehiwala,Tuesday,Evening,5.5
+363,Suzuki Alto,2018,97103,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,8,Walgama,Thursday,Afternoon,3.5
+364,Suzuki Alto,2015,139334,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Authorized,14,Kamburupitiya,Monday,Morning,3.5
+365,Suzuki Alto,2018,89859,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Local,10,Modara,Saturday,Afternoon,0.5
+366,Suzuki Alto,2016,120545,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,13,Dikwella,Thursday,Evening,1.4
+367,Suzuki Alto,2015,134403,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,13,Mulatiyana,Friday,Afternoon,1.0
+368,Suzuki Alto,2018,79658,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,4,Gandara,Wednesday,Evening,1.0
+369,Suzuki Alto,2016,123211,Engine,Exhaust Smoke,Major,Valve Seals,Order Required,Authorized,15,Pallimulla,Thursday,Morning,15.0
+370,Suzuki Alto,2021,49070,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,4,Hiththetiya,Wednesday,Afternoon,1.4
+371,Suzuki Alto,2019,65283,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Authorized,15,Grandpass,Tuesday,Evening,1.25
+372,Suzuki Alto,2015,134605,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Authorized,16,Ratmalana,Friday,Afternoon,7.0
+373,Suzuki Alto,2011,162109,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,3,Maradana,Saturday,Morning,1.9
+374,Suzuki Alto,2021,44300,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Local,1,Maradana,Saturday,Evening,13.5
+375,Suzuki Alto,2017,113529,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,5,Havelock Town,Friday,Afternoon,2.0
+376,Suzuki Alto,2011,176774,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,Order Required,Authorized,18,Walgama,Wednesday,Morning,6.5
+377,Suzuki Alto,2015,123458,Body,Door Lock Issue,Minor,Door Lock Mechanism,Order Required,Authorized,22,Nupe,Thursday,Morning,2.5
+378,Suzuki Alto,2015,135814,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,13,Gandara,Saturday,Afternoon,13.0
+379,Suzuki Alto,2013,161667,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,1,Meddawatta,Monday,Afternoon,3.0
+380,Suzuki Alto,2021,44930,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Authorized,4,Pasgoda,Tuesday,Evening,10.5
+381,Suzuki Alto,2014,128437,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,9,Kesbewa,Friday,Evening,2.0
+382,Suzuki Alto,2016,117113,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,13,Ratmalana,Friday,Morning,2.0
+383,Suzuki Alto,2017,106153,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,4,Weligama,Monday,Afternoon,4.5
+384,Suzuki Alto,2017,115984,Engine,Head Gasket Leak,Major,Head Gasket Kit,Order Required,Local,7,Akuressa,Thursday,Afternoon,23.5
+385,Suzuki Alto,2018,86354,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Authorized,19,Dondra,Friday,Evening,7.0
+386,Suzuki Alto,2020,70572,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Authorized,9,Gandara,Friday,Evening,5.0
+387,Suzuki Alto,2021,63524,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,9,Devinuwara,Tuesday,Afternoon,2.5
+388,Suzuki Alto,2014,147735,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,5,Havelock Town,Friday,Afternoon,3.5
+389,Suzuki Alto,2020,70614,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,3,Gandara,Friday,Afternoon,1.5
+390,Suzuki Alto,2021,56152,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Authorized,12,Pallimulla,Thursday,Morning,3.5
+391,Suzuki Alto,2015,118985,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Authorized,22,Borella,Monday,Evening,5.5
+392,Suzuki Alto,2018,101180,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,13,Slave Island,Thursday,Evening,1.7
+393,Suzuki Alto,2020,73148,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Local,5,Havelock Town,Tuesday,Evening,4.0
+394,Suzuki Alto,2017,93818,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Authorized,25,Pitabeddara,Monday,Morning,10.0
+395,Suzuki Alto,2013,161996,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Authorized,11,Hiththetiya,Saturday,Afternoon,5.0
+396,Suzuki Alto,2011,169113,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Local,1,Dikwella,Tuesday,Evening,7.5
+397,Suzuki Alto,2021,43137,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,19,Padukka,Monday,Evening,9.0
+398,Suzuki Alto,2014,149085,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,6,Kollupitiya,Tuesday,Evening,0.2
+399,Suzuki Alto,2020,60945,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,6,Weligama,Monday,Morning,2.5
+400,Suzuki Alto,2021,65118,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,7,Nawimana,Friday,Evening,6.5
+401,Suzuki Alto,2014,133848,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,3,Kamburupitiya,Saturday,Morning,5.0
+402,Suzuki Alto,2017,90119,AC,AC Belt,Minor,AC Belt,In Stock,Authorized,11,Thihagoda,Wednesday,Afternoon,2.0
+403,Suzuki Alto,2013,153892,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Authorized,20,Dondra,Tuesday,Afternoon,1.1
+404,Suzuki Alto,2018,100273,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Authorized,6,Gandara,Saturday,Evening,5.5
+405,Suzuki Alto,2019,71426,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Authorized,12,Mulatiyana,Friday,Afternoon,1.8
+406,Suzuki Alto,2019,74292,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,1,Maradana,Thursday,Afternoon,1.8
+407,Suzuki Alto,2016,111857,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,14,Dondra,Friday,Afternoon,1.8
+408,Suzuki Alto,2018,84106,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Local,2,Pallimulla,Saturday,Morning,1.4
+409,Suzuki Alto,2013,163783,Suspension,Strut Mount,Moderate,Strut Mounting,Order Required,Authorized,15,Pallimulla,Wednesday,Afternoon,5.5
+410,Suzuki Alto,2016,127496,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,20,Devinuwara,Saturday,Morning,0.9
+411,Suzuki Alto,2021,48913,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,18,Hakmana,Tuesday,Morning,1.0
+412,Suzuki Alto,2017,109916,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,11,Malimbada,Friday,Afternoon,7.0
+413,Suzuki Alto,2013,160159,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,1,Ratmalana,Wednesday,Evening,3.0
+414,Suzuki Alto,2018,78551,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Authorized,4,Pallimulla,Tuesday,Morning,7.0
+415,Suzuki Alto,2021,47963,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,7,Hiththetiya,Tuesday,Morning,6.5
+416,Suzuki Alto,2020,62806,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,24,Pallimulla,Monday,Morning,1.0
+417,Suzuki Alto,2018,102439,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Local,11,Slave Island,Saturday,Afternoon,3.0
+418,Suzuki Alto,2012,149357,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,7,Dondra,Tuesday,Afternoon,9.5
+419,Suzuki Alto,2017,114338,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Authorized,25,Ratmalana,Wednesday,Evening,2.5
+420,Suzuki Alto,2016,107696,Electrical,Sensor Malfunction,Minor,O2 Sensor,Order Required,Local,4,Paburana,Thursday,Evening,8.0
+421,Suzuki Alto,2015,132269,Transmission,Clutch Slipping,Major,Clutch Kit Complete,Order Required,Authorized,13,Bambalapitiya,Friday,Evening,9.0
+422,Suzuki Alto,2021,43395,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,15,Paburana,Friday,Morning,1.1
+423,Suzuki Alto,2019,72328,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,3,Akuressa,Monday,Morning,5.5
+424,Suzuki Alto,2016,113070,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Local,3,Matara,Friday,Evening,2.5
+425,Suzuki Alto,2013,144463,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Local,6,Pasgoda,Thursday,Morning,4.5
+426,Suzuki Alto,2017,106328,Engine,Oil Pump Failure,Major,Oil Pump,In Stock,Authorized,6,Pitabeddara,Monday,Afternoon,12.5
+427,Suzuki Alto,2016,112294,AC,Evaporator Leak,Major,Evaporator Core,In Stock,Authorized,6,Kollupitiya,Wednesday,Afternoon,9.0
+428,Suzuki Alto,2021,45989,Engine,Engine Knocking,Major,Connecting Rod Bearings,Order Required,Local,6,Thalalla,Wednesday,Evening,16.0
+429,Suzuki Alto,2017,106810,AC,AC Belt,Minor,AC Belt,In Stock,Authorized,14,Gandara,Tuesday,Morning,1.2
+430,Suzuki Alto,2019,83985,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,17,Akuressa,Thursday,Afternoon,1.0
+431,Suzuki Alto,2017,104332,Transmission,Gear Selector Cable,Minor,Selector Cable,Order Required,Authorized,5,Kolonnawa,Tuesday,Morning,4.5
+432,Suzuki Alto,2020,52673,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Authorized,7,Dehiwala,Wednesday,Afternoon,2.0
+433,Suzuki Alto,2020,56557,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,Order Required,Authorized,12,Hiththetiya,Friday,Afternoon,2.0
+434,Suzuki Alto,2013,148343,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,5,Dondra,Tuesday,Afternoon,2.5
+435,Suzuki Alto,2015,122369,Engine,Piston Ring Wear,Major,Piston Rings+Honing,In Stock,Authorized,11,Borella,Tuesday,Afternoon,16.0
+436,Suzuki Alto,2021,66253,Body,Side Mirror Broken,Minor,Side Mirror,Order Required,Local,6,Kolonnawa,Wednesday,Evening,3.5
+437,Suzuki Alto,2018,88748,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,7,Devinuwara,Friday,Morning,15.0
+438,Suzuki Alto,2020,69017,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Authorized,15,Kollupitiya,Thursday,Morning,1.0
+439,Suzuki Alto,2021,44930,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Local,4,Ratmalana,Thursday,Evening,17.0
+440,Suzuki Alto,2011,182316,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,3,Pasgoda,Thursday,Morning,3.0
+441,Suzuki Alto,2018,82841,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,13,Nawimana,Tuesday,Evening,2.5
+442,Suzuki Alto,2014,127375,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,16,Kaduwela,Saturday,Morning,1.2
+443,Suzuki Alto,2020,69024,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,5,Nupe,Tuesday,Evening,0.9
+444,Suzuki Alto,2014,129424,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,15,Pasgoda,Friday,Evening,3.0
+445,Suzuki Alto,2015,116525,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,7,Dikwella,Thursday,Evening,1.7
+446,Suzuki Alto,2020,54955,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Authorized,7,Slave Island,Friday,Evening,3.0
+447,Suzuki Alto,2020,62317,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,6,Kollupitiya,Friday,Morning,1.5
+448,Suzuki Alto,2012,167557,Engine,Head Gasket Leak,Major,Head Gasket Kit,Order Required,Local,13,Akuressa,Thursday,Afternoon,21.0
+449,Suzuki Alto,2020,59994,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Local,12,Weligama,Monday,Evening,2.0
+450,Suzuki Alto,2019,86951,Brake,Weak Braking,Moderate,Brake Pads+Rotors,Order Required,Local,1,Kirulapone,Saturday,Afternoon,9.5
+451,Suzuki Alto,2017,103645,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,11,Kesbewa,Thursday,Morning,1.2
+452,Suzuki Alto,2011,181043,Brake,Master Cylinder Failure,Major,Master Cylinder,Order Required,Authorized,8,Meddawatta,Tuesday,Morning,12.0
+453,Suzuki Alto,2016,118685,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Authorized,19,Padukka,Monday,Morning,3.0
+454,Suzuki Alto,2018,99232,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Local,6,Kolonnawa,Thursday,Afternoon,2.0
+455,Suzuki Alto,2021,60348,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,4,Nawimana,Saturday,Morning,1.3
+456,Suzuki Alto,2019,79829,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Local,21,Paburana,Friday,Evening,2.5
+457,Suzuki Alto,2015,139142,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Local,24,Weligama,Friday,Afternoon,4.0
+458,Suzuki Alto,2021,52708,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,25,Dikwella,Saturday,Afternoon,2.0
+459,Suzuki Alto,2017,102698,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Authorized,7,Kolonnawa,Thursday,Evening,8.5
+460,Suzuki Alto,2012,159837,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Local,2,Weligama,Thursday,Afternoon,4.0
+461,Suzuki Alto,2017,99480,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,23,Hiththetiya,Wednesday,Morning,5.5
+462,Suzuki Alto,2017,102428,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,11,Kirulapone,Saturday,Evening,4.5
+463,Suzuki Alto,2017,97971,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Local,16,Bambalapitiya,Thursday,Afternoon,2.5
+464,Suzuki Alto,2017,113323,AC,AC Filter,Minor,Cabin Filter,In Stock,Authorized,24,Weligama,Friday,Evening,1.0
+465,Suzuki Alto,2011,178955,Body,Side Mirror Broken,Minor,Side Mirror,Order Required,Local,16,Gandara,Friday,Morning,1.1
+466,Suzuki Alto,2021,64252,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,12,Dikwella,Thursday,Afternoon,3.5
+467,Suzuki Alto,2012,169641,Engine,Water Pump Leak,Major,Water Pump,In Stock,Authorized,6,Hakmana,Wednesday,Morning,15.0
+468,Suzuki Alto,2019,64942,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,7,Ratmalana,Friday,Evening,2.0
+469,Suzuki Alto,2017,88144,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,10,Dehiwala,Friday,Morning,1.3
+470,Suzuki Alto,2020,74738,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,4,Mulatiyana,Friday,Afternoon,4.0
+471,Suzuki Alto,2020,73939,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,2,Padukka,Saturday,Evening,3.0
+472,Suzuki Alto,2014,124888,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,12,Thalalla,Friday,Morning,2.0
+473,Suzuki Alto,2016,114246,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,5,Seethawaka,Monday,Afternoon,3.0
+474,Suzuki Alto,2019,92921,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Authorized,2,Ratmalana,Tuesday,Afternoon,11.0
+475,Suzuki Alto,2020,68626,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,12,Padukka,Monday,Afternoon,1.4
+476,Suzuki Alto,2018,91386,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Authorized,9,Borella,Tuesday,Afternoon,11.0
+477,Suzuki Alto,2014,125135,Engine,Engine Mount Worn,Moderate,Engine Mount Set,Order Required,Local,7,Hiththetiya,Tuesday,Afternoon,12.0
+478,Suzuki Alto,2021,49136,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,4,Dondra,Monday,Morning,1.6
+479,Suzuki Alto,2013,155963,Electrical,Complete Alternator Failure,Major,Alternator Complete,Order Required,Authorized,8,Bambalapitiya,Tuesday,Afternoon,13.0
+480,Suzuki Alto,2015,122432,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,7,Akuressa,Thursday,Afternoon,1.1
+481,Suzuki Alto,2019,86342,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,4,Maradana,Friday,Evening,2.5
+482,Suzuki Alto,2015,131126,AC,Blower Motor Issues,Minor,Blower Motor,Order Required,Authorized,17,Padukka,Wednesday,Morning,1.75
+483,Suzuki Alto,2013,138458,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Local,5,Thalalla,Thursday,Afternoon,6.0
+484,Suzuki Alto,2019,83832,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,2,Thihagoda,Friday,Morning,2.0
+485,Suzuki Alto,2014,132312,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Authorized,5,Nawimana,Tuesday,Afternoon,14.5
+486,Suzuki Alto,2021,52102,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,17,Walgama,Thursday,Afternoon,3.0
+487,Suzuki Alto,2019,85027,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Authorized,3,Gandara,Thursday,Afternoon,7.5
+488,Suzuki Alto,2019,69645,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,Order Required,Local,12,Gandara,Tuesday,Morning,4.0
+489,Suzuki Alto,2021,53168,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,24,Matara,Thursday,Evening,1.7
+490,Suzuki Alto,2015,130580,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,Order Required,Local,4,Thalalla,Thursday,Evening,4.0
+491,Suzuki Alto,2020,64315,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,6,Nupe,Friday,Afternoon,2.0
+492,Suzuki Alto,2020,70192,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,17,Nupe,Saturday,Afternoon,4.5
+493,Suzuki Alto,2020,74959,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Local,14,Nupe,Monday,Evening,4.0
+494,Suzuki Alto,2017,106882,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,5,Weligama,Thursday,Afternoon,2.5
+495,Suzuki Alto,2021,45348,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Authorized,14,Gandara,Saturday,Afternoon,3.5
+496,Suzuki Alto,2020,73741,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,15,Meddawatta,Thursday,Evening,5.0
+497,Suzuki Alto,2014,144130,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Local,10,Nupe,Wednesday,Afternoon,1.7
+498,Suzuki Alto,2017,105370,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,18,Mulatiyana,Friday,Evening,3.5
+499,Suzuki Alto,2017,113534,Body,Window Glass Crack,Minor,Window Glass,Order Required,Authorized,23,Pasgoda,Friday,Evening,2.5
+500,Suzuki Alto,2014,136503,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Authorized,24,Kamburupitiya,Thursday,Evening,3.0
+501,Suzuki Alto,2020,77060,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,15,Akuressa,Saturday,Morning,4.0
+502,Suzuki Alto,2020,56582,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Local,15,Havelock Town,Thursday,Evening,7.5
+503,Suzuki Alto,2015,112784,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Local,6,Mulatiyana,Wednesday,Afternoon,3.0
+504,Suzuki Alto,2018,88076,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,12,Devinuwara,Thursday,Morning,1.3
+505,Suzuki Alto,2012,155040,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Authorized,4,Kirinda Puhulwella,Thursday,Evening,22.0
+506,Suzuki Alto,2015,113177,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,12,Kolonnawa,Friday,Morning,3.5
+507,Suzuki Alto,2018,96031,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,4,Meddawatta,Saturday,Evening,4.0
+508,Suzuki Alto,2015,115215,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,10,Malimbada,Friday,Morning,1.2
+509,Suzuki Alto,2014,126641,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,17,Kirinda Puhulwella,Monday,Evening,2.5
+510,Suzuki Alto,2020,63560,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,Order Required,Local,5,Kaduwela,Monday,Afternoon,6.0
+511,Suzuki Alto,2021,42787,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,4,Havelock Town,Thursday,Morning,6.0
+512,Suzuki Alto,2016,103611,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Local,6,Pitabeddara,Wednesday,Evening,3.0
+513,Suzuki Alto,2021,53308,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Local,5,Borella,Thursday,Morning,4.0
+514,Suzuki Alto,2016,119374,Body,Side Mirror Broken,Minor,Side Mirror,Order Required,Local,12,Dikwella,Friday,Afternoon,1.5
+515,Suzuki Alto,2018,88991,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,4,Dondra,Monday,Afternoon,19.0
+516,Suzuki Alto,2018,80271,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,9,Maradana,Friday,Afternoon,1.4
+517,Suzuki Alto,2015,118574,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,Order Required,Local,1,Ratmalana,Thursday,Afternoon,8.0
+518,Suzuki Alto,2016,124805,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,1,Akuressa,Wednesday,Morning,10.0
+519,Suzuki Alto,2020,77912,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,23,Kirulapone,Saturday,Evening,5.5
+520,Suzuki Alto,2016,125402,AC,AC Not Cooling,Moderate,Compressor,Order Required,Authorized,15,Walgama,Monday,Afternoon,12.0
+521,Suzuki Alto,2017,112578,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,5,Dehiwala,Thursday,Afternoon,2.0
+522,Suzuki Alto,2021,46833,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,2,Kollupitiya,Friday,Evening,4.0
+523,Suzuki Alto,2017,88711,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,Order Required,Local,6,Pallimulla,Saturday,Afternoon,1.7
+524,Suzuki Alto,2012,171411,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Local,11,Seethawaka,Monday,Afternoon,4.5
+525,Suzuki Alto,2017,94028,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Authorized,12,Paburana,Friday,Evening,8.5
+526,Suzuki Alto,2017,92689,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Authorized,10,Dikwella,Thursday,Afternoon,7.0
+527,Suzuki Alto,2019,73756,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,8,Matara,Monday,Afternoon,1.7
+528,Suzuki Alto,2021,64341,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,Order Required,Authorized,8,Kaduwela,Wednesday,Evening,9.5
+529,Suzuki Alto,2018,87991,Engine,Engine Knocking,Major,Connecting Rod Bearings,Order Required,Authorized,14,Malimbada,Thursday,Morning,10.5
+530,Suzuki Alto,2015,127887,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,18,Matara,Tuesday,Afternoon,2.0
+531,Suzuki Alto,2015,121798,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,25,Gandara,Tuesday,Afternoon,3.0
+532,Suzuki Alto,2021,61557,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Authorized,15,Maradana,Tuesday,Evening,3.0
+533,Suzuki Alto,2019,66640,Body,Door Lock Issue,Minor,Door Lock Mechanism,Order Required,Local,24,Seethawaka,Thursday,Evening,2.0
+534,Suzuki Alto,2019,69253,Brake,Weak Braking,Moderate,Brake Pads+Rotors,Order Required,Authorized,11,Ratmalana,Wednesday,Morning,9.0
+535,Suzuki Alto,2016,107493,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,1,Kaduwela,Tuesday,Afternoon,4.0
+536,Suzuki Alto,2013,157247,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,23,Walgama,Monday,Evening,2.0
+537,Suzuki Alto,2012,159759,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,24,Gandara,Thursday,Evening,3.0
+538,Suzuki Alto,2017,96107,Brake,Weak Braking,Moderate,Brake Pads+Rotors,Order Required,Authorized,9,Kirulapone,Tuesday,Evening,6.5
+539,Suzuki Alto,2021,47117,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,12,Bambalapitiya,Wednesday,Afternoon,3.0
+540,Suzuki Alto,2020,75447,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,Order Required,Authorized,10,Kaduwela,Monday,Morning,3.0
+541,Suzuki Alto,2017,100098,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,8,Meddawatta,Saturday,Afternoon,4.0
+542,Suzuki Alto,2021,47452,Electrical,Complete Alternator Failure,Major,Alternator Complete,Order Required,Authorized,7,Hakmana,Saturday,Morning,11.0
+543,Suzuki Alto,2016,127882,Body,Side Mirror Broken,Minor,Side Mirror,Order Required,Local,15,Pitabeddara,Friday,Evening,1.4
+544,Suzuki Alto,2017,109612,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Local,7,Ratmalana,Wednesday,Morning,6.0
+545,Suzuki Alto,2012,166440,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,Order Required,Local,2,Gandara,Monday,Afternoon,9.5
+546,Suzuki Alto,2021,65017,Brake,Master Cylinder Failure,Major,Master Cylinder,Order Required,Authorized,7,Walgama,Tuesday,Evening,8.0
+547,Suzuki Alto,2015,122078,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,13,Matara,Wednesday,Evening,2.0
+548,Suzuki Alto,2017,104825,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Authorized,21,Meddawatta,Friday,Evening,2.5
+549,Suzuki Alto,2018,88646,AC,Refrigerant Leak,Moderate,Condenser,Order Required,Authorized,16,Kamburupitiya,Wednesday,Morning,7.0
+550,Suzuki Alto,2017,92723,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Local,19,Havelock Town,Thursday,Evening,2.5
+551,Suzuki Alto,2013,162963,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,Order Required,Authorized,13,Kollupitiya,Wednesday,Afternoon,9.5
+552,Suzuki Alto,2019,68046,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Authorized,3,Thalalla,Wednesday,Afternoon,4.5
+553,Suzuki Alto,2015,138773,Suspension,Rear Springs,Moderate,Rear Springs,Order Required,Local,9,Kolonnawa,Wednesday,Morning,6.5
+554,Suzuki Alto,2012,150479,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,11,Devinuwara,Saturday,Afternoon,4.0
+555,Suzuki Alto,2014,145339,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Authorized,5,Pitabeddara,Friday,Evening,5.0
+556,Suzuki Alto,2018,93789,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,6,Akuressa,Thursday,Afternoon,2.5
+557,Suzuki Alto,2020,73356,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Local,4,Kolonnawa,Monday,Evening,10.0
+558,Suzuki Alto,2015,137851,Brake,Brake Booster Failure,Major,Brake Booster,In Stock,Authorized,4,Pallimulla,Wednesday,Afternoon,12.5
+559,Suzuki Alto,2014,137046,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,7,Padukka,Monday,Morning,4.0
+560,Suzuki Alto,2018,88859,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Local,1,Dikwella,Tuesday,Evening,4.0
+561,Suzuki Alto,2016,103440,Engine,Oil Pump Failure,Major,Oil Pump,Order Required,Authorized,11,Slave Island,Thursday,Afternoon,13.5
+562,Suzuki Alto,2016,121431,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,12,Dondra,Wednesday,Evening,5.5
+563,Suzuki Alto,2018,85412,Engine,Engine Mount Worn,Moderate,Engine Mount Set,Order Required,Authorized,10,Malimbada,Wednesday,Evening,10.5
+564,Suzuki Alto,2013,140171,Engine,Piston Ring Wear,Major,Piston Rings+Honing,Order Required,Local,16,Kolonnawa,Friday,Afternoon,17.5
+565,Suzuki Alto,2018,78632,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,5,Grandpass,Monday,Morning,2.5
+566,Suzuki Alto,2015,136975,Brake,Brake Disc Warped,Moderate,Front Brake Discs,Order Required,Local,12,Devinuwara,Thursday,Evening,4.0
+567,Suzuki Alto,2013,156558,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Authorized,24,Kirulapone,Tuesday,Afternoon,1.5
+568,Suzuki Alto,2020,79633,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Authorized,6,Akuressa,Tuesday,Evening,13.0
+569,Suzuki Alto,2014,151111,Engine,Oil Pump Failure,Major,Oil Pump,Order Required,Authorized,23,Dikwella,Friday,Evening,10.5
+570,Suzuki Alto,2016,102139,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Local,10,Hakmana,Thursday,Evening,4.0
+571,Suzuki Alto,2011,168798,AC,AC Not Cooling,Moderate,Compressor,Order Required,Authorized,2,Kirulapone,Saturday,Evening,7.0
+572,Suzuki Alto,2016,118515,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,8,Seethawaka,Saturday,Afternoon,8.0
+573,Suzuki Alto,2021,48414,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Authorized,9,Dikwella,Tuesday,Morning,5.5
+574,Suzuki Alto,2013,142434,Brake,Brake Booster Failure,Major,Brake Booster,In Stock,Authorized,23,Grandpass,Saturday,Morning,5.0
+575,Suzuki Alto,2017,108251,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,4,Ratmalana,Wednesday,Afternoon,0.5
+576,Suzuki Alto,2020,59875,Electrical,Alternator Belt,Minor,Alternator Belt,In Stock,Local,3,Athuraliya,Wednesday,Afternoon,1.7
+577,Suzuki Alto,2016,114848,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Local,10,Nawimana,Wednesday,Evening,2.0
+578,Suzuki Alto,2016,105895,Suspension,Strut Mount,Moderate,Strut Mounting,Order Required,Authorized,13,Kolonnawa,Saturday,Evening,5.5
+579,Suzuki Alto,2018,98895,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,8,Meddawatta,Thursday,Afternoon,3.0
+580,Suzuki Alto,2017,98399,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,Order Required,Authorized,10,Hakmana,Monday,Morning,21.0
+581,Suzuki Alto,2015,119940,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,5,Kamburupitiya,Tuesday,Evening,1.4
+582,Suzuki Alto,2016,122925,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Authorized,19,Kirulapone,Tuesday,Evening,4.5
+583,Suzuki Alto,2018,76532,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,15,Grandpass,Saturday,Afternoon,1.5
+584,Suzuki Alto,2017,93828,Transmission,Gear Selector Cable,Minor,Selector Cable,Order Required,Local,3,Kaduwela,Friday,Morning,9.5
+585,Suzuki Alto,2016,106122,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,14,Bambalapitiya,Friday,Afternoon,2.5
+586,Suzuki Alto,2019,79845,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,7,Kamburupitiya,Friday,Afternoon,3.0
+587,Suzuki Alto,2020,67663,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,13,Seethawaka,Friday,Morning,2.0
+588,Suzuki Alto,2011,172104,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,3,Paburana,Wednesday,Evening,1.0
+589,Suzuki Alto,2014,128024,Transmission,Clutch Slipping,Major,Clutch Kit Complete,Order Required,Authorized,22,Dehiwala,Wednesday,Evening,13.0
+590,Suzuki Alto,2019,81079,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,Order Required,Authorized,7,Kaduwela,Monday,Morning,8.5
+591,Suzuki Alto,2020,52874,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,Order Required,Authorized,17,Walgama,Wednesday,Afternoon,5.0
+592,Suzuki Alto,2017,93043,Brake,Brake Fluid Leak,Moderate,Brake Lines,Order Required,Authorized,13,Dehiwala,Saturday,Evening,5.0
+593,Suzuki Alto,2021,63238,Engine,Water Pump Leak,Major,Water Pump,In Stock,Local,11,Weligama,Wednesday,Morning,16.5
+594,Suzuki Alto,2013,155455,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,23,Matara,Friday,Afternoon,1.8
+595,Suzuki Alto,2017,100242,Suspension,Rear Springs,Moderate,Rear Springs,Order Required,Authorized,6,Ratmalana,Wednesday,Afternoon,9.5
+596,Suzuki Alto,2016,121537,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,3,Meddawatta,Wednesday,Evening,7.5
+597,Suzuki Alto,2017,109993,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Local,17,Kesbewa,Saturday,Morning,5.0
+598,Suzuki Alto,2021,63471,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,2,Kirinda Puhulwella,Thursday,Evening,0.4
+599,Suzuki Alto,2018,88038,AC,AC Not Cooling,Moderate,Compressor,Order Required,Local,20,Matara,Wednesday,Morning,8.5
+600,Suzuki Alto,2016,121446,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,5,Borella,Friday,Evening,0.7
+601,Suzuki Alto,2015,137629,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,6,Pasgoda,Saturday,Morning,1.1
+602,Suzuki Alto,2011,161523,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,Order Required,Local,10,Akuressa,Monday,Morning,6.5
+603,Suzuki Alto,2016,125580,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,6,Mulatiyana,Monday,Morning,1.7
+604,Suzuki Alto,2015,138840,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Local,8,Seethawaka,Thursday,Morning,7.5
+605,Suzuki Alto,2012,170027,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,Order Required,Local,24,Malimbada,Saturday,Morning,12.5
+606,Suzuki Alto,2016,119699,AC,AC Pressure Switch,Minor,Pressure Switch,Order Required,Authorized,5,Thihagoda,Monday,Morning,4.0
+607,Suzuki Alto,2012,167794,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,21,Kollupitiya,Monday,Afternoon,2.5
+608,Suzuki Alto,2017,95369,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Authorized,5,Borella,Friday,Morning,2.0
+609,Suzuki Alto,2020,61094,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,8,Maradana,Friday,Evening,3.5
+610,Suzuki Alto,2019,85865,AC,AC Not Cooling,Moderate,Compressor,In Stock,Authorized,2,Dondra,Saturday,Evening,7.0
+611,Suzuki Alto,2013,137232,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Local,21,Devinuwara,Friday,Afternoon,6.0
+612,Suzuki Alto,2014,130967,Engine,Spark Plug Change,Minor,Spark Plugs,Order Required,Local,11,Malimbada,Monday,Evening,2.0
+613,Suzuki Alto,2019,78776,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Local,9,Matara,Tuesday,Evening,3.5
+614,Suzuki Alto,2014,148361,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Authorized,24,Thihagoda,Thursday,Evening,5.5
+615,Suzuki Alto,2016,102477,Brake,Brake Disc Warped,Moderate,Front Brake Discs,Order Required,Local,2,Hiththetiya,Monday,Evening,8.5
+616,Suzuki Alto,2015,136688,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,6,Havelock Town,Tuesday,Afternoon,1.9
+617,Suzuki Alto,2015,134959,Suspension,Rear Springs,Moderate,Rear Springs,Order Required,Local,3,Seethawaka,Friday,Morning,7.5
+618,Suzuki Alto,2019,87841,Brake,Brake Fluid Leak,Moderate,Brake Lines,Order Required,Local,12,Meddawatta,Wednesday,Afternoon,6.5
+619,Suzuki Alto,2018,80329,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,10,Dondra,Saturday,Evening,3.5
+620,Suzuki Alto,2021,44283,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,4,Malimbada,Wednesday,Morning,3.5
+621,Suzuki Alto,2017,114079,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,13,Mulatiyana,Thursday,Morning,2.5
+622,Suzuki Alto,2017,107386,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,Order Required,Local,5,Kirulapone,Thursday,Afternoon,8.5
+623,Suzuki Alto,2019,85794,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,10,Bambalapitiya,Tuesday,Afternoon,0.4
+624,Suzuki Alto,2021,67897,Body,Side Mirror Broken,Minor,Side Mirror,Order Required,Local,25,Dikwella,Friday,Afternoon,1.6
+625,Suzuki Alto,2014,125183,AC,AC Belt,Minor,AC Belt,In Stock,Local,13,Padukka,Wednesday,Morning,1.6
+626,Suzuki Alto,2020,60119,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,12,Athuraliya,Saturday,Evening,1.0
+627,Suzuki Alto,2019,79310,AC,AC Filter,Minor,Cabin Filter,In Stock,Authorized,9,Paburana,Tuesday,Afternoon,0.7
+628,Suzuki Alto,2015,115494,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,16,Paburana,Saturday,Evening,0.0
+629,Suzuki Alto,2016,123011,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Local,6,Dondra,Wednesday,Afternoon,4.0
+630,Suzuki Alto,2015,130432,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,9,Nupe,Saturday,Morning,6.5
+631,Suzuki Alto,2015,139373,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,13,Maradana,Thursday,Evening,1.5
+632,Suzuki Alto,2016,109731,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Local,5,Kirinda Puhulwella,Saturday,Evening,7.0
+633,Suzuki Alto,2015,129447,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Authorized,5,Padukka,Monday,Afternoon,2.5
+634,Suzuki Alto,2016,116685,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Local,11,Gandara,Saturday,Afternoon,5.0
+635,Suzuki Alto,2017,91166,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Authorized,22,Mulatiyana,Friday,Afternoon,21.0
+636,Suzuki Alto,2020,56679,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,Order Required,Authorized,3,Padukka,Monday,Afternoon,10.0
+637,Suzuki Alto,2014,148760,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Authorized,5,Meddawatta,Tuesday,Afternoon,13.5
+638,Suzuki Alto,2019,87850,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,8,Kolonnawa,Thursday,Morning,1.3
+639,Suzuki Alto,2017,104882,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,11,Kaduwela,Monday,Evening,1.5
+640,Suzuki Alto,2015,131374,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,10,Dehiwala,Saturday,Afternoon,6.0
+641,Suzuki Alto,2015,112781,AC,AC Filter,Minor,Cabin Filter,Order Required,Authorized,14,Weligama,Tuesday,Morning,1.0
+642,Suzuki Alto,2016,119259,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,2,Kolonnawa,Monday,Evening,7.0
+643,Suzuki Alto,2018,92108,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,In Stock,Authorized,8,Dikwella,Tuesday,Morning,20.0
+644,Suzuki Alto,2016,125991,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Local,15,Kollupitiya,Tuesday,Morning,2.0
+645,Suzuki Alto,2015,131226,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,14,Akuressa,Wednesday,Afternoon,2.5
+646,Suzuki Alto,2016,115803,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,8,Dikwella,Tuesday,Evening,1.0
+647,Suzuki Alto,2015,131051,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,Order Required,Authorized,2,Nawimana,Wednesday,Morning,7.5
+648,Suzuki Alto,2012,165547,Electrical,Battery Drain,Minor,Battery,In Stock,Local,20,Bambalapitiya,Monday,Afternoon,1.9
+649,Suzuki Alto,2018,98423,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,5,Padukka,Thursday,Afternoon,6.0
+650,Suzuki Alto,2014,126718,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,5,Thalalla,Monday,Evening,0.3
+651,Suzuki Alto,2020,67422,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,3,Weligama,Saturday,Morning,0.4
+652,Suzuki Alto,2012,163343,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,7,Padukka,Tuesday,Evening,2.0
+653,Suzuki Alto,2019,88218,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,5,Thalalla,Thursday,Morning,2.0
+654,Suzuki Alto,2015,117396,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,Order Required,Local,5,Maradana,Tuesday,Evening,16.0
+655,Suzuki Alto,2017,93593,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,2,Dikwella,Monday,Afternoon,3.0
+656,Suzuki Alto,2016,126934,Transmission,Reverse Gear Failure,Major,Transmission Rebuild,In Stock,Local,3,Akuressa,Wednesday,Afternoon,18.0
+657,Suzuki Alto,2018,91141,AC,AC Gas Refill,Minor,Refrigerant Gas,Order Required,Local,5,Kirulapone,Friday,Afternoon,3.5
+658,Suzuki Alto,2016,115071,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Authorized,11,Kirinda Puhulwella,Friday,Afternoon,9.0
+659,Suzuki Alto,2020,60825,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,1,Nupe,Friday,Evening,2.5
+660,Suzuki Alto,2011,173796,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,9,Mulatiyana,Saturday,Afternoon,5.5
+661,Suzuki Alto,2015,112586,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Authorized,1,Devinuwara,Wednesday,Morning,12.5
+662,Suzuki Alto,2020,69269,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,Order Required,Authorized,6,Pallimulla,Friday,Morning,12.0
+663,Suzuki Alto,2011,184101,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,Order Required,Authorized,10,Weligama,Tuesday,Morning,9.5
+664,Suzuki Alto,2018,90242,AC,AC Resistor,Minor,Blower Resistor,Order Required,Authorized,4,Padukka,Wednesday,Evening,3.5
+665,Suzuki Alto,2017,89729,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,12,Meddawatta,Tuesday,Evening,3.0
+666,Suzuki Alto,2013,139599,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,3,Dehiwala,Saturday,Afternoon,6.5
+667,Suzuki Alto,2021,43158,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,4,Matara,Tuesday,Evening,0.9
+668,Suzuki Alto,2017,115301,Body,Side Mirror Broken,Minor,Side Mirror,In Stock,Authorized,25,Kolonnawa,Friday,Evening,1.7
+669,Suzuki Alto,2013,136574,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Authorized,8,Seethawaka,Tuesday,Morning,4.0
+670,Suzuki Alto,2018,101828,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,9,Thihagoda,Thursday,Afternoon,5.0
+671,Suzuki Alto,2020,57611,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Authorized,11,Thalalla,Tuesday,Afternoon,1.0
+672,Suzuki Alto,2016,102325,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,9,Gandara,Wednesday,Evening,4.5
+673,Suzuki Alto,2011,160906,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,15,Gandara,Wednesday,Afternoon,1.4
+674,Suzuki Alto,2011,174831,Engine,Engine Mount Worn,Moderate,Engine Mount Set,Order Required,Authorized,15,Ratmalana,Saturday,Afternoon,7.5
+675,Suzuki Alto,2013,156593,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,8,Pallimulla,Saturday,Afternoon,3.0
+676,Suzuki Alto,2015,139899,AC,AC Belt,Minor,AC Belt,In Stock,Local,25,Weligama,Saturday,Morning,1.7
+677,Suzuki Alto,2018,93628,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,23,Kamburupitiya,Friday,Evening,2.0
+678,Suzuki Alto,2015,114398,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Local,9,Kamburupitiya,Tuesday,Afternoon,3.5
+679,Suzuki Alto,2018,85450,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,5,Borella,Wednesday,Evening,3.5
+680,Suzuki Alto,2018,79457,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,2,Weligama,Thursday,Morning,7.5
+681,Suzuki Alto,2011,184502,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,5,Nawimana,Wednesday,Afternoon,1.9
+682,Suzuki Alto,2016,118795,Transmission,Transmission Jerking,Moderate,Transmission Fluid,In Stock,Local,23,Modara,Friday,Afternoon,2.0
+683,Suzuki Alto,2011,167887,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,6,Kamburupitiya,Saturday,Afternoon,3.0
+684,Suzuki Alto,2016,115357,AC,AC Filter,Minor,Cabin Filter,In Stock,Authorized,12,Athuraliya,Saturday,Evening,0.9
+685,Suzuki Alto,2021,55811,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Authorized,17,Padukka,Monday,Evening,8.5
+686,Suzuki Alto,2014,150720,Transmission,Gear Selector Cable,Minor,Selector Cable,Order Required,Local,15,Kotapola,Thursday,Morning,1.75
+687,Suzuki Alto,2018,80820,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Authorized,14,Malimbada,Saturday,Afternoon,7.0
+688,Suzuki Alto,2015,118811,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Authorized,5,Maradana,Monday,Morning,5.5
+689,Suzuki Alto,2011,179254,Brake,Weak Braking,Moderate,Brake Pads+Rotors,Order Required,Local,15,Padukka,Wednesday,Evening,12.5
+690,Suzuki Alto,2015,124039,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Local,10,Walgama,Wednesday,Morning,2.0
+691,Suzuki Alto,2016,117551,AC,Compressor Failure,Major,Compressor+Belt,In Stock,Authorized,12,Dikwella,Friday,Morning,7.0
+692,Suzuki Alto,2021,43124,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Local,11,Mulatiyana,Monday,Evening,8.0
+693,Suzuki Alto,2016,100610,Electrical,Sensor Malfunction,Minor,O2 Sensor,Order Required,Authorized,6,Kesbewa,Friday,Evening,6.0
+694,Suzuki Alto,2015,125495,Suspension,Rear Springs,Moderate,Rear Springs,In Stock,Local,17,Kirulapone,Tuesday,Evening,3.5
+695,Suzuki Alto,2018,79646,AC,AC Filter,Minor,Cabin Filter,In Stock,Authorized,5,Meddawatta,Monday,Morning,1.3
+696,Suzuki Alto,2015,129220,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,5,Weligama,Tuesday,Evening,0.0
+697,Suzuki Alto,2021,63197,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,2,Bambalapitiya,Saturday,Morning,1.5
+698,Suzuki Alto,2017,109397,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,1,Dikwella,Saturday,Morning,5.5
+699,Suzuki Alto,2015,123186,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,Order Required,Local,14,Thihagoda,Saturday,Evening,9.0
+700,Suzuki Alto,2014,143600,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,13,Pallimulla,Thursday,Afternoon,1.8
+701,Suzuki Alto,2017,100497,Engine,Coolant Leak,Moderate,Radiator Hose,Order Required,Authorized,8,Pallimulla,Friday,Afternoon,4.5
+702,Suzuki Alto,2016,124461,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,6,Matara,Thursday,Evening,6.0
+703,Suzuki Alto,2018,85936,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Local,14,Seethawaka,Saturday,Afternoon,2.0
+704,Suzuki Alto,2012,160650,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,9,Dikwella,Thursday,Evening,1.0
+705,Suzuki Alto,2020,61691,Electrical,Battery Drain,Minor,Battery,In Stock,Local,25,Kesbewa,Thursday,Evening,1.4
+706,Suzuki Alto,2011,170054,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,4,Akuressa,Friday,Morning,1.4
+707,Suzuki Alto,2019,77606,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Local,18,Kirulapone,Saturday,Evening,3.0
+708,Suzuki Alto,2019,78819,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,Order Required,Authorized,3,Nupe,Thursday,Afternoon,9.0
+709,Suzuki Alto,2019,65261,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Authorized,22,Dehiwala,Saturday,Morning,2.0
+710,Suzuki Alto,2017,100160,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Local,4,Matara,Saturday,Afternoon,0.9
+711,Suzuki Alto,2015,124969,Brake,Master Cylinder Failure,Major,Master Cylinder,In Stock,Authorized,23,Pallimulla,Tuesday,Afternoon,5.0
+712,Suzuki Alto,2021,56917,Brake,Brake Fluid Leak,Moderate,Brake Lines,In Stock,Authorized,7,Athuraliya,Thursday,Afternoon,3.0
+713,Suzuki Alto,2015,115561,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Authorized,21,Pallimulla,Friday,Evening,4.0
+714,Suzuki Alto,2017,94971,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Local,10,Ratmalana,Wednesday,Evening,2.5
+715,Suzuki Alto,2017,108938,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Local,19,Grandpass,Monday,Morning,2.5
+716,Suzuki Alto,2020,60403,Brake,Brake Disc Warped,Moderate,Front Brake Discs,In Stock,Authorized,2,Maradana,Tuesday,Morning,4.0
+717,Suzuki Alto,2019,74090,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,7,Kaduwela,Tuesday,Evening,4.0
+718,Suzuki Alto,2016,116612,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Local,8,Paburana,Thursday,Evening,1.6
+719,Suzuki Alto,2011,172331,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,9,Padukka,Monday,Morning,4.0
+720,Suzuki Alto,2019,71431,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Local,6,Ratmalana,Saturday,Evening,3.5
+721,Suzuki Alto,2021,56202,Transmission,Transmission Mount,Minor,Transmission Mount,Order Required,Local,22,Hakmana,Tuesday,Afternoon,3.0
+722,Suzuki Alto,2020,76666,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,5,Paburana,Tuesday,Evening,4.5
+723,Suzuki Alto,2019,86846,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,4,Devinuwara,Saturday,Afternoon,3.0
+724,Suzuki Alto,2011,181754,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,15,Padukka,Friday,Evening,4.5
+725,Suzuki Alto,2016,106318,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Local,11,Nawimana,Thursday,Evening,8.5
+726,Suzuki Alto,2015,131129,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,21,Dondra,Wednesday,Afternoon,1.7
+727,Suzuki Alto,2021,60406,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Local,20,Dikwella,Saturday,Evening,3.0
+728,Suzuki Alto,2015,134942,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,Order Required,Local,9,Havelock Town,Saturday,Afternoon,7.5
+729,Suzuki Alto,2016,126867,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,10,Nupe,Thursday,Evening,7.0
+730,Suzuki Alto,2021,62023,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Local,6,Borella,Friday,Afternoon,1.2
+731,Suzuki Alto,2017,104161,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Local,10,Gandara,Wednesday,Morning,6.5
+732,Suzuki Alto,2019,70510,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Authorized,24,Athuraliya,Tuesday,Afternoon,3.0
+733,Suzuki Alto,2021,40802,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,1,Devinuwara,Monday,Evening,2.5
+734,Suzuki Alto,2018,83063,Engine,Head Gasket Leak,Major,Head Gasket Kit,In Stock,Authorized,2,Kesbewa,Tuesday,Morning,15.0
+735,Suzuki Alto,2014,126795,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,4,Pallimulla,Wednesday,Afternoon,9.0
+736,Suzuki Alto,2019,83348,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Authorized,14,Kamburupitiya,Friday,Afternoon,1.9
+737,Suzuki Alto,2021,51147,AC,Condenser Fan,Moderate,Condenser Fan Motor,In Stock,Local,18,Slave Island,Saturday,Evening,3.0
+738,Suzuki Alto,2017,92760,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Local,10,Nupe,Tuesday,Afternoon,2.0
+739,Suzuki Alto,2017,91990,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Local,5,Pitabeddara,Friday,Morning,21.5
+740,Suzuki Alto,2019,65239,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,24,Nupe,Thursday,Afternoon,2.0
+741,Suzuki Alto,2020,72558,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,12,Dehiwala,Thursday,Afternoon,1.2
+742,Suzuki Alto,2019,66112,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Local,14,Thalalla,Tuesday,Morning,1.0
+743,Suzuki Alto,2018,92370,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,In Stock,Local,6,Matara,Wednesday,Morning,3.5
+744,Suzuki Alto,2020,52412,Transmission,Gear Selector Cable,Minor,Selector Cable,In Stock,Authorized,16,Pasgoda,Saturday,Evening,4.0
+745,Suzuki Alto,2015,124571,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,9,Devinuwara,Tuesday,Evening,8.5
+746,Suzuki Alto,2019,79664,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,8,Ratmalana,Friday,Morning,2.5
+747,Suzuki Alto,2015,115268,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Local,5,Kamburupitiya,Friday,Evening,13.5
+748,Suzuki Alto,2015,121991,AC,AC Resistor,Minor,Blower Resistor,In Stock,Authorized,3,Kotapola,Wednesday,Evening,2.0
+749,Suzuki Alto,2021,49465,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,7,Ratmalana,Wednesday,Morning,1.3
+750,Suzuki Alto,2016,104808,Engine,Turbo Failure,Major,Turbocharger,Order Required,Local,13,Dikwella,Thursday,Afternoon,31.5
+751,Suzuki Alto,2019,90895,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,23,Grandpass,Wednesday,Evening,6.5
+752,Suzuki Alto,2014,124494,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,8,Matara,Thursday,Evening,6.0
+753,Suzuki Alto,2019,82044,Engine,Overheating (Radiator+Water Pump),Major,Radiator+Water Pump,In Stock,Local,23,Kolonnawa,Friday,Morning,6.5
+754,Suzuki Alto,2015,127190,AC,Compressor Failure,Major,Compressor+Belt,In Stock,Local,4,Mulatiyana,Friday,Morning,9.0
+755,Suzuki Alto,2021,44738,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,19,Paburana,Wednesday,Afternoon,4.0
+756,Suzuki Alto,2015,127071,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,5,Matara,Wednesday,Morning,6.0
+757,Suzuki Alto,2019,66945,Electrical,Fuel Pump Failure,Moderate,Fuel Pump,In Stock,Local,10,Kolonnawa,Saturday,Evening,4.5
+758,Suzuki Alto,2018,96836,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,12,Athuraliya,Wednesday,Morning,1.25
+759,Suzuki Alto,2016,121018,Electrical,Headlight Not Working,Minor,Headlight Bulb,In Stock,Local,18,Kamburupitiya,Thursday,Morning,1.0
+760,Suzuki Alto,2021,58568,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Local,1,Thalalla,Thursday,Afternoon,7.5
+761,Suzuki Alto,2021,53981,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Authorized,20,Thihagoda,Tuesday,Afternoon,3.0
+762,Suzuki Alto,2015,134628,Electrical,Battery Drain,Minor,Battery,Order Required,Local,4,Dikwella,Thursday,Morning,3.5
+763,Suzuki Alto,2019,83312,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,In Stock,Local,4,Seethawaka,Thursday,Morning,4.0
+764,Suzuki Alto,2018,84252,Brake,ABS Sensor Fault,Moderate,ABS Sensor,Order Required,Local,16,Nupe,Thursday,Afternoon,3.5
+765,Suzuki Alto,2018,85685,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Authorized,2,Hakmana,Friday,Afternoon,7.0
+766,Suzuki Alto,2017,95090,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,9,Kolonnawa,Wednesday,Morning,3.0
+767,Suzuki Alto,2015,130781,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,In Stock,Authorized,18,Pasgoda,Monday,Morning,3.0
+768,Suzuki Alto,2014,151923,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,10,Meddawatta,Thursday,Evening,4.0
+769,Suzuki Alto,2018,102286,Brake,Weak Braking,Moderate,Brake Pads+Rotors,Order Required,Local,5,Meddawatta,Wednesday,Afternoon,6.0
+770,Suzuki Alto,2015,128683,Body,Tail Light Not Working,Minor,Tail Light Assembly,In Stock,Local,14,Thalalla,Monday,Morning,1.1
+771,Suzuki Alto,2013,149855,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,Order Required,Authorized,20,Walgama,Monday,Morning,18.0
+772,Suzuki Alto,2016,117846,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Authorized,22,Malimbada,Monday,Morning,4.0
+773,Suzuki Alto,2018,95925,Electrical,Sensor Malfunction,Minor,O2 Sensor,Order Required,Local,22,Grandpass,Monday,Afternoon,3.0
+774,Suzuki Alto,2017,113676,Electrical,Alternator+Battery Problem,Moderate,Alternator+Battery,In Stock,Local,6,Weligama,Saturday,Morning,7.0
+775,Suzuki Alto,2021,58258,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,5,Kollupitiya,Wednesday,Afternoon,3.0
+776,Suzuki Alto,2015,117481,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,13,Kolonnawa,Tuesday,Afternoon,3.0
+777,Suzuki Alto,2019,69240,AC,Evaporator Leak,Major,Evaporator Core,In Stock,Local,22,Ratmalana,Thursday,Afternoon,8.0
+778,Suzuki Alto,2016,106843,Engine,Timing Belt Failure,Major,Timing Belt Kit,In Stock,Local,1,Nupe,Wednesday,Afternoon,13.5
+779,Suzuki Alto,2021,51035,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Local,3,Kesbewa,Friday,Evening,4.5
+780,Suzuki Alto,2018,103555,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Authorized,3,Borella,Tuesday,Morning,2.0
+781,Suzuki Alto,2020,75052,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,22,Meddawatta,Wednesday,Evening,1.2
+782,Suzuki Alto,2012,173549,AC,Compressor Failure,Major,Compressor+Belt,Order Required,Authorized,7,Pitabeddara,Monday,Evening,15.0
+783,Suzuki Alto,2018,80978,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Authorized,3,Welipitiya,Saturday,Morning,3.0
+784,Suzuki Alto,2020,77842,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,4,Kolonnawa,Monday,Afternoon,2.5
+785,Suzuki Alto,2015,116057,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Authorized,15,Kaduwela,Thursday,Evening,7.5
+786,Suzuki Alto,2018,76135,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,8,Nupe,Thursday,Morning,0.5
+787,Suzuki Alto,2020,74924,AC,AC Resistor,Minor,Blower Resistor,In Stock,Local,25,Havelock Town,Monday,Evening,1.0
+788,Suzuki Alto,2015,121772,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Authorized,5,Hakmana,Wednesday,Afternoon,2.0
+789,Suzuki Alto,2017,108635,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Authorized,21,Dehiwala,Friday,Afternoon,4.5
+790,Suzuki Alto,2018,76689,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,Order Required,Authorized,2,Bambalapitiya,Friday,Afternoon,9.0
+791,Suzuki Alto,2020,72964,Body,Window Glass Crack,Minor,Window Glass,In Stock,Local,21,Kollupitiya,Monday,Morning,3.5
+792,Suzuki Alto,2019,67354,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,1,Kollupitiya,Thursday,Evening,2.0
+793,Suzuki Alto,2021,64632,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,5,Kolonnawa,Tuesday,Morning,1.6
+794,Suzuki Alto,2012,156377,AC,Condenser Fan,Moderate,Condenser Fan Motor,Order Required,Authorized,4,Pasgoda,Tuesday,Morning,4.0
+795,Suzuki Alto,2021,63171,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Authorized,4,Walgama,Monday,Morning,1.0
+796,Suzuki Alto,2015,114389,Engine,Overheating (Thermostat+Coolant),Major,Thermostat+Coolant,In Stock,Authorized,4,Akuressa,Tuesday,Morning,4.0
+797,Suzuki Alto,2020,78754,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,5,Havelock Town,Saturday,Morning,1.75
+798,Suzuki Alto,2016,122507,AC,Refrigerant Leak,Moderate,Condenser,In Stock,Authorized,20,Pitabeddara,Friday,Afternoon,7.0
+799,Suzuki Alto,2016,100817,Engine,Overheating (Radiator+Thermostat),Major,Radiator+Thermostat,In Stock,Authorized,14,Kollupitiya,Friday,Evening,8.0
+800,Suzuki Alto,2019,72464,Body,Window Glass Crack,Minor,Window Glass,Order Required,Authorized,2,Matara,Saturday,Morning,8.0
+801,Suzuki Alto,2019,81920,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Authorized,13,Hakmana,Monday,Afternoon,9.5
+802,Suzuki Alto,2021,42497,Body,Rust Treatment,Minor,Paint+Protection,In Stock,Authorized,2,Seethawaka,Monday,Evening,6.0
+803,Suzuki Alto,2016,104815,AC,Compressor Failure,Major,Compressor+Belt,In Stock,Authorized,1,Kollupitiya,Saturday,Evening,14.5
+804,Suzuki Alto,2012,175311,Suspension,Tie Rod End,Moderate,Tie Rod Ends+Alignment,In Stock,Authorized,15,Kamburupitiya,Wednesday,Morning,4.0
+805,Suzuki Alto,2011,174445,Brake,Brake Booster Failure,Major,Brake Booster,Order Required,Local,9,Hiththetiya,Friday,Morning,10.0
+806,Suzuki Alto,2019,76728,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,9,Seethawaka,Saturday,Morning,1.1
+807,Suzuki Alto,2018,99262,Engine,Engine Mount Worn,Moderate,Engine Mount Set,In Stock,Local,6,Thihagoda,Wednesday,Afternoon,8.0
+808,Suzuki Alto,2019,73851,Electrical,Sensor Malfunction,Minor,O2 Sensor,In Stock,Authorized,4,Thihagoda,Wednesday,Morning,1.9
+809,Suzuki Alto,2019,87282,Suspension,Ball Joint Wear,Moderate,Ball Joints Both,Order Required,Authorized,6,Athuraliya,Wednesday,Morning,4.5
+810,Suzuki Alto,2015,137642,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Local,3,Pallimulla,Saturday,Afternoon,1.6
+811,Suzuki Alto,2020,59127,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Local,4,Kaduwela,Friday,Afternoon,2.5
+812,Suzuki Alto,2011,184925,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,8,Matara,Tuesday,Morning,1.7
+813,Suzuki Alto,2017,113587,Electrical,Battery Drain,Minor,Battery,In Stock,Authorized,11,Paburana,Friday,Afternoon,2.0
+814,Suzuki Alto,2021,40909,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,1,Kirulapone,Thursday,Morning,3.0
+815,Suzuki Alto,2012,148992,AC,Condenser Fan,Moderate,Condenser Fan Motor,In Stock,Local,4,Kamburupitiya,Wednesday,Afternoon,2.5
+816,Suzuki Alto,2016,121357,Engine,Exhaust Smoke,Major,Valve Seals,Order Required,Authorized,9,Padukka,Tuesday,Afternoon,20.0
+817,Suzuki Alto,2014,150909,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,Order Required,Local,15,Gandara,Thursday,Evening,18.0
+818,Suzuki Alto,2015,125526,Electrical,Ignition Coil Failure,Moderate,Ignition Coil Set,Order Required,Local,23,Bambalapitiya,Monday,Afternoon,3.5
+819,Suzuki Alto,2017,108793,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,2,Dehiwala,Friday,Evening,3.5
+820,Suzuki Alto,2018,91147,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,12,Thihagoda,Saturday,Evening,2.0
+821,Suzuki Alto,2017,97648,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,14,Pasgoda,Wednesday,Morning,3.0
+822,Suzuki Alto,2016,109163,Body,Door Lock Issue,Minor,Door Lock Mechanism,In Stock,Local,6,Ratmalana,Tuesday,Afternoon,2.0
+823,Suzuki Alto,2011,170206,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,1,Nupe,Tuesday,Evening,3.5
+824,Suzuki Alto,2018,91717,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,1,Mulatiyana,Wednesday,Afternoon,2.5
+825,Suzuki Alto,2021,58813,Suspension,Stabilizer Link Noise,Minor,Stabilizer Links,In Stock,Authorized,3,Thalalla,Friday,Morning,1.4
+826,Suzuki Alto,2017,92397,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,17,Ratmalana,Thursday,Evening,4.0
+827,Suzuki Alto,2017,99467,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Local,9,Meddawatta,Wednesday,Morning,1.9
+828,Suzuki Alto,2014,145059,Electrical,Complete Alternator Failure,Major,Alternator Complete,In Stock,Local,19,Kamburupitiya,Wednesday,Morning,4.0
+829,Suzuki Alto,2018,89446,Body,Window Glass Crack,Minor,Window Glass,In Stock,Authorized,7,Meddawatta,Tuesday,Evening,3.5
+830,Suzuki Alto,2020,60564,AC,AC Filter,Minor,Cabin Filter,In Stock,Local,4,Slave Island,Monday,Afternoon,1.2
+831,Suzuki Alto,2016,122582,Engine,High Fuel Consumption,Moderate,Fuel Injectors+Filter,In Stock,Local,4,Mulatiyana,Friday,Morning,7.5
+832,Suzuki Alto,2015,135631,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Local,23,Athuraliya,Saturday,Evening,3.5
+833,Suzuki Alto,2014,128585,Engine,Oil Leak (Valve Cover),Moderate,Valve Cover Gasket,In Stock,Authorized,6,Kotapola,Monday,Evening,7.0
+834,Suzuki Alto,2020,76668,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,7,Akuressa,Saturday,Afternoon,4.0
+835,Suzuki Alto,2021,46905,Suspension,Shock Absorber Noise,Moderate,Front Shocks,In Stock,Authorized,7,Kamburupitiya,Saturday,Morning,5.5
+836,Suzuki Alto,2016,117365,Engine,Head Gasket Leak,Major,Head Gasket Kit,In Stock,Local,17,Hiththetiya,Wednesday,Afternoon,10.0
+837,Suzuki Alto,2019,85454,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,7,Matara,Tuesday,Afternoon,3.5
+838,Suzuki Alto,2017,102743,Electrical,Complete Alternator Failure,Major,Alternator Complete,Order Required,Local,3,Dikwella,Friday,Evening,15.5
+839,Suzuki Alto,2014,139929,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Local,11,Nawimana,Thursday,Afternoon,3.0
+840,Suzuki Alto,2020,64332,Electrical,Wiper Motor Failure,Minor,Wiper Motor,In Stock,Local,4,Dehiwala,Monday,Morning,2.5
+841,Suzuki Alto,2016,122316,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Local,12,Padukka,Saturday,Morning,5.0
+842,Suzuki Alto,2016,118008,Transmission,Hard Gear Shifting,Moderate,Clutch Plate,In Stock,Local,7,Kesbewa,Wednesday,Afternoon,7.5
+843,Suzuki Alto,2012,163177,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Authorized,12,Kirulapone,Wednesday,Evening,5.0
+844,Suzuki Alto,2018,87011,Brake,Brake Noise,Minor,Brake Pad Shims,In Stock,Authorized,2,Grandpass,Thursday,Morning,1.3
+845,Suzuki Alto,2021,44414,Electrical,Horn Not Working,Minor,Horn Relay,In Stock,Authorized,12,Thihagoda,Tuesday,Morning,0.5
+846,Suzuki Alto,2020,55528,Electrical,Bulb Blown,Minor,Bulbs+Fuses,In Stock,Authorized,3,Meddawatta,Thursday,Morning,1.7
+847,Suzuki Alto,2017,102251,Transmission,Transmission Mount,Minor,Transmission Mount,In Stock,Authorized,9,Welipitiya,Monday,Morning,1.5
+848,Suzuki Alto,2014,149893,Brake,Weak Braking,Moderate,Brake Pads+Rotors,In Stock,Authorized,15,Paburana,Wednesday,Morning,5.0
+849,Suzuki Alto,2014,146129,AC,AC Belt,Minor,AC Belt,In Stock,Authorized,5,Kirulapone,Wednesday,Morning,2.0
+850,Suzuki Alto,2020,60212,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,1,Meddawatta,Thursday,Afternoon,1.8
+851,Suzuki Alto,2011,173628,Electrical,Central Locking Fault,Minor,Central Lock Actuator,In Stock,Local,10,Athuraliya,Saturday,Morning,2.5
+852,Suzuki Alto,2017,92471,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,In Stock,Authorized,3,Kotapola,Monday,Afternoon,11.5
+853,Suzuki Alto,2018,96712,Transmission,Gearbox Oil Leak,Moderate,Oil Seal,Order Required,Authorized,4,Thalalla,Tuesday,Evening,4.0
+854,Suzuki Alto,2018,101167,Electrical,Sensor Malfunction,Minor,O2 Sensor,Order Required,Authorized,3,Dondra,Friday,Afternoon,4.0
+855,Suzuki Alto,2015,121848,Engine,Misfiring,Moderate,Spark Plugs+Ignition Coil,In Stock,Local,10,Padukka,Saturday,Afternoon,5.0
+856,Suzuki Alto,2015,126557,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,Order Required,Authorized,10,Kamburupitiya,Saturday,Morning,3.0
+857,Suzuki Alto,2013,147912,Electrical,ECU Error,Moderate,ECU Reprogram,In Stock,Authorized,14,Slave Island,Saturday,Morning,2.0
+858,Suzuki Alto,2013,139119,Brake,Brake Pad Wear,Minor,Brake Pads Front,In Stock,Authorized,3,Mulatiyana,Tuesday,Evening,4.0
+859,Suzuki Alto,2017,89026,AC,Blower Motor Issues,Minor,Blower Motor,In Stock,Authorized,6,Kollupitiya,Monday,Morning,2.0
+860,Suzuki Alto,2012,167624,Electrical,Central Locking Fault,Minor,Central Lock Actuator,Order Required,Authorized,16,Ratmalana,Thursday,Morning,2.0
+861,Suzuki Alto,2015,134303,Brake,Brake Booster Failure,Major,Brake Booster,In Stock,Local,14,Bambalapitiya,Wednesday,Afternoon,6.0
+862,Suzuki Alto,2021,65456,AC,AC Pressure Switch,Minor,Pressure Switch,In Stock,Authorized,18,Seethawaka,Thursday,Morning,1.5
+863,Suzuki Alto,2012,167572,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Local,5,Hiththetiya,Wednesday,Evening,1.6
+864,Suzuki Alto,2017,108174,AC,AC Gas Refill,Minor,Refrigerant Gas,In Stock,Local,8,Akuressa,Saturday,Afternoon,4.5
+865,Suzuki Alto,2011,169983,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,10,Modara,Saturday,Afternoon,1.8
+866,Suzuki Alto,2019,88462,Suspension,Control Arm Bushings,Moderate,Lower Arm Bushings,In Stock,Local,16,Bambalapitiya,Tuesday,Afternoon,3.5
+867,Suzuki Alto,2020,72283,Engine,Oil Leak (Gasket),Minor,Gasket Set,In Stock,Authorized,23,Pallimulla,Monday,Evening,3.0
+868,Suzuki Alto,2017,90866,Engine,Crankshaft Sensor Issue,Moderate,Crankshaft Sensor,In Stock,Authorized,15,Pitabeddara,Thursday,Morning,3.5
+869,Suzuki Alto,2015,112884,AC,Evaporator Leak,Major,Evaporator Core,In Stock,Authorized,3,Walgama,Thursday,Morning,11.0
+870,Suzuki Alto,2020,71187,Engine,Spark Plug Change,Minor,Spark Plugs,In Stock,Authorized,17,Kolonnawa,Saturday,Evening,1.4
+871,Suzuki Alto,2020,73379,Engine,Coolant Leak,Moderate,Radiator Hose,In Stock,Authorized,5,Borella,Saturday,Afternoon,4.0
+872,Suzuki Alto,2019,65078,Suspension,Wheel Bearing Noise,Moderate,Front Wheel Bearing,Order Required,Local,8,Dondra,Thursday,Evening,29.5
+873,Suzuki Alto,2017,112583,Engine,Throttle Body Cleaning,Minor,Cleaning Service,In Stock,Authorized,12,Dikwella,Friday,Evening,3.0
+874,Suzuki Alto,2018,88067,Suspension,Strut Mount,Moderate,Strut Mounting,In Stock,Local,15,Dikwella,Friday,Morning,2.0
+875,Suzuki Alto,2019,83702,Suspension,Sway Bar Links,Minor,Sway Bar Link Set,In Stock,Local,17,Devinuwara,Tuesday,Morning,2.0
