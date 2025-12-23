@@ -7,7 +7,7 @@ Record_ID,Car_Model,Model_Year,Mileage_KM,Fault_Category,Fault_Type,Severity,Par
 6,Suzuki Alto,2011,210185,Brake,ABS Sensor Fault,Minor,ABS Sensor,In Stock,Authorized,15,Gandara,Wednesday,Evening,0.6
 7,Suzuki Alto,2017,228011,Electrical,Headlight Issue,Minor,Bulb/Fuse,In Stock,Local,14,Welipitiya,Wednesday,Afternoon,0.5
 8,Suzuki Alto,2011,216741,AC,No Cooling,Moderate,Refrigerant Gas,In Stock,Local,15,Kaduwela,Sunday,Morning,2.7
-9,Suzuki Alto,2017,37015,Brake,Brake Shoe Wear,Minor,Brake Shoes,In Stock,Local,12,Pasgoda,Tuesday,Afternoon,0.9
+9,Suzuki Alto,2017,37015,Brake,Brake Shoe Wear,Minor,Brake Shoes,In Stock,Local,12,Kaduwela,Tuesday,Afternoon,0.9
 10,Suzuki Alto,2018,157852,Body,Rust Patch,Minor,Tinkering/Painting,In Stock,Local,8,Kamburupitiya,Thursday,Afternoon,2.8
 11,Suzuki Alto,2019,50147,Engine,Fuel Injector Clog,Moderate,Injector Cleaning,Order Required,Local,18,Akuressa,Saturday,Afternoon,2.4
 12,Suzuki Alto,2011,233118,Electrical,Horn Not Working,Minor,Horn Unit,In Stock,Local,19,Dondra,Sunday,Afternoon,0.5
