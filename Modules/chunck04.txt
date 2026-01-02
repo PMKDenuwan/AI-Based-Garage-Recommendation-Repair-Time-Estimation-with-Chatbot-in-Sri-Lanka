@@ -1,0 +1,217 @@
+Building on existing project, implement COMPLETE MECHANIC MODULE:
+
+1. MECHANIC REGISTRATION & APPROVAL:
+Registration Form:
+- Personal Details: Name, Email, Phone, National ID Number
+- Professional Info:
+  * Experience: Dropdown (1-3 years | 4-7 years | 8-12 years | 12+ years)
+  * Education: Dropdown (No formal training | Technical school | Diploma | Degree)
+  * Specializations: Multi-select checkboxes [Engine, Brakes, Electrical, Transmission, Cooling System, Suspension, All Systems]
+  * Service Radius: Radio buttons [10 km | 15 km | 20 km]
+- Base Location: 
+  * Address textarea
+  * "Pick Location on Map" button → Map modal → Place marker → Save coordinates
+- Document Uploads:
+  * National ID (front & back) - images
+  * Certificates (optional) - PDFs/images
+  * Profile Photo - image
+- [Submit for Approval] button → Status: "Pending Admin Approval"
+- Email notification when approved/rejected
+
+2. MECHANIC DASHBOARD:
+Top Section - Online Status:
+- Large toggle: 🔴 OFFLINE | 🟢 ONLINE
+- When online: "You are visible to customers within X km radius"
+- When offline: "Go online to receive job requests"
+
+Dashboard Cards:
+- 💰 Today's Earnings: Rs. X,XXX
+- 🔧 Active Jobs: Count (max 1 at a time for demo)
+- ✅ Completed Today: Count
+- ⭐ Your Rating: 4.5 / 5.0 (XX reviews)
+
+ACTIVE JOB CARD (if any):
+- Customer: Name, Phone
+- Vehicle: Model, Year
+- Location: Address + Distance
+- Issue: Brief description
+- Status: Accepted → En Route → On Site → Working → Completed
+- [View Details] button
+
+RECENT JOBS LIST:
+Scrollable list of past jobs with: Date, Customer, Amount, Rating
+
+3. JOB REQUEST SYSTEM (UBER-STYLE):
+
+When driver requests mechanic + mechanic is online + within service radius:
+→ Full-screen JOB REQUEST MODAL appears
+
+Modal Content:
+- Top: ⏰ TIMER counting down from 60 seconds
+- "NEW JOB REQUEST" heading
+- Customer Location & Distance: "1.5 km away"
+- Estimated Arrival Time: "8 minutes"
+- Vehicle: Suzuki Alto 2018, 45,000 km
+- Issue Summary:
+  * Fault: Engine Cooling System - Radiator Failure
+  * Severity: 🔴 MAJOR (EMERGENCY)
+  * Estimated Time: 2-3 hours
+- Estimated Job Value: Rs. 8,000 - 12,000
+- Skills Match: ✅ Your specializations match this job
+- Map preview showing customer location
+- Two large buttons:
+  * [✓ ACCEPT JOB] (green)
+  * [✗ DECLINE] (red)
+
+If timer reaches 0 → Auto-decline + notify system
+If accepted → Move to Active Job screen
+If declined → Send to next available mechanic
+
+4. ACTIVE JOB WORKFLOW:
+
+AFTER ACCEPTING:
+Screen shows:
+- Job Status: "ACCEPTED - Customer notified"
+- Customer Details:
+  * Name, Phone
+  * [📞 Call Customer] button (opens phone dialer)
+- Location: Address, Distance, Map
+- [Navigate to Location] button → Opens Google Maps/Apple Maps with directions
+- Vehicle & Diagnosis details
+- Real-time ETA countdown (updates every minute)
+
+[Confirm Arrival] button → Updates status to "ON SITE"
+
+ON SITE STATUS:
+- [Start Work] button → Status: "WORKING"
+- Add Diagnostic Notes:
+  * Textarea for detailed diagnosis
+  * [Save Notes] button
+- Upload Work Photos:
+  * Before photos
+  * During repair photos
+  * After photos
+  * Multiple image upload
+- Update Progress: Dropdown (Diagnosing | Repairing | Testing | Almost Done)
+
+COMPLETING THE JOB:
+[Job Complete - Add Bill] button → Opens bill modal
+
+Bill Entry Form:
+- Parts Used: Textarea (list of parts)
+- Parts Cost: Rs. input
+- Labor Charges: Rs. input
+- Other Charges: Rs. input (fuel, travel, etc.)
+- Total: Auto-calculated, bold, large font
+- Payment Collected: Toggle [Not Yet / Cash Received / Bank Transfer]
+- [Submit & Complete Job] button
+
+After submission → Job moves to Completed
+Driver can now rate the mechanic
+
+5. LIVE LOCATION SHARING:
+
+When job status is "En Route" or "On Site":
+- Automatically share location with customer every 30 seconds
+- Customer sees mechanic moving on map in real-time
+- ETA updates automatically based on current location
+
+Implementation:
+```javascript
+// When job accepted
+if (navigator.geolocation) {
+  locationInterval = setInterval(() => {
+    navigator.geolocation.getCurrentPosition(position => {
+      socket.emit('mechanic-location-update', {
+        jobId: activeJob.id,
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      });
+    });
+  }, 30000); // Every 30 seconds
+}
+```
+
+6. EARNINGS TRACKING:
+
+TODAY'S EARNINGS:
+- Total earned today: Rs. X,XXX
+- Jobs completed: Count
+- Average per job: Rs. X,XXX
+- Pending payments: Count (jobs marked as "Not Yet" paid)
+
+WEEKLY/MONTHLY VIEW:
+- Tabs: This Week | This Month | All Time
+- Bar chart (Recharts) showing daily earnings
+- Total earnings for period
+- Best day indicator
+
+JOB HISTORY TABLE:
+Columns: Date | Customer | Vehicle | Issue | Amount | Payment Status | Rating
+Filter: Date range, Payment status
+Search: By customer name
+
+PENDING PAYMENTS:
+- List of jobs where payment toggle is "Not Yet"
+- Show: Customer, Amount, Date, [Mark as Paid] button
+
+7. REAL-TIME FEATURES:
+
+Socket.io Events:
+MECHANIC LISTENS FOR:
+- 'new-job-request' → Show full-screen modal with 60s timer
+- 'job-cancelled' → Customer cancelled, clear active job
+- 'customer-message' → In-app chat notification
+
+MECHANIC EMITS:
+- 'job-accepted' → Notify customer & system
+- 'job-declined' → Send to next mechanic
+- 'mechanic-location-update' → Real-time tracking
+- 'job-status-update' → Status changes
+- 'arrival-confirmed' → Mechanic at location
+- 'job-completed' → Final completion
+
+8. ADDITIONAL FEATURES:
+
+In-App Chat with Customer:
+- Chat screen during active job
+- Send text messages
+- Upload photos
+- Timestamps
+
+Profile & Settings:
+- Edit profile info
+- Update specializations
+- Change service radius
+- Update base location
+- View certificates
+
+Notifications:
+- Push notifications for new jobs (use React Native Push Notifications)
+- Sound alert for incoming requests
+- Vibration on job request
+
+9. BACKEND APIs FOR MECHANIC:
+GET /api/mechanic/profile
+PATCH /api/mechanic/profile (edit details)
+PATCH /api/mechanic/status (toggle online/offline)
+GET /api/mechanic/jobs?status=pending|active|completed
+POST /api/mechanic/jobs/:id/accept
+POST /api/mechanic/jobs/:id/decline
+PATCH /api/mechanic/jobs/:id/status (arrival, start work, complete)
+POST /api/mechanic/jobs/:id/notes
+POST /api/mechanic/jobs/:id/photos
+POST /api/mechanic/jobs/:id/bill (add cost breakdown)
+PATCH /api/mechanic/jobs/:id/payment (mark paid)
+GET /api/mechanic/earnings?period=today|week|month
+POST /api/mechanic/location (update live location)
+
+DESIGN:
+- Mobile-first React Native app
+- Dark theme for dashboard (professional)
+- Large, touch-friendly buttons (min 48px height)
+- Full-screen job request modal with countdown timer
+- Map integration showing customer location
+- Bottom navigation: Home | Jobs | Earnings | Profile
+- Haptic feedback on job acceptance
+- Loading states, error handling
