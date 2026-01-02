@@ -1,0 +1,392 @@
+Building on the existing project, implement COMPLETE DRIVER MODULE:
+
+1. AUTHENTICATION & PROFILE:
+- Login screen → Verify OTP → Role selection if new user → Driver Dashboard
+- Profile Management:
+  * Edit name, email, phone, address (text input for now)
+  * Add/Edit/Delete Vehicles (Suzuki Alto 2010-2025 only)
+  * Vehicle form: Model dropdown, Year, Mileage (km), Transmission (Manual/Auto), Registration number
+  * Display vehicle list with edit/delete buttons
+
+2. AI CHATBOT DIAGNOSTIC SYSTEM (HARDCODED DEMO FLOWS):
+
+**CRITICAL: Implement exact conversation flows with trigger phrase detection**
+
+TRIGGER DETECTION:
+- If user message contains "brake" OR "grinding" OR "brake noise" → Activate BRAKE FLOW
+- If user message contains "overheating" OR "overheat" OR "engine stopped" → Activate OVERHEATING FLOW
+
+CASE 1: BRAKE GRINDING (DRIVABLE FLOW)
+────────────────────────────────────────────────────────────────
+
+Initial Message:
+Bot: "Hi Kavindu! 👋 I'm here to help with your Suzuki Alto.
+What seems to be the problem today?"
+
+User types: "My brakes are making grinding noises when I press them"
+
+Bot Response:
+"I understand you're hearing grinding noises from the brakes.
+Let's go through a few questions to diagnose this properly.
+
+Have you parked the car now? Are you safe?"
+[Yes] [No] buttons
+
+User selects: [Yes]
+
+Bot: " Are you inside or outside the vehicle right now?"
+[Inside] [Outside] buttons
+
+User selects: [Inside]
+
+Bot: "How fast were you driving when the noise occurred?"
+[Low speed] [Moderate speed] [High speed] buttons
+
+User selects: [Low speed]
+
+Bot: "Is the brake warning light illuminated on your dashboard?"
+[Yes] [No] buttons
+
+User selects: [No]
+
+Bot: "Great! Thanks. Next:
+
+ How does the brake pedal feel when you press it?"
+[Normal] [Soft/Spongy] [Hard to press] [Goes to floor] buttons
+
+User selects: [Normal]
+
+Bot: "Understood.
+
+ When do you hear the grinding noise?"
+[Every time I brake]
+[Only at high speeds]
+[Only when stopping completely]
+[Only in the morning] buttons
+
+User selects: [Every time I brake]
+
+Bot: "Got it. A few more quick questions to understand the situation better:
+
+ Is the vehicle still running normally? Can you drive it safely at low speeds?"
+[Yes, runs fine] [No, something's wrong] buttons
+
+User selects: [Yes, runs fine]
+
+Bot: "Perfect! Let's also take a look at your dashboard.
+
+📸 Please upload a clear photo of your dashboard with the ignition ON."
+
+[Show camera upload button with icon]
+
+User uploads image
+
+Bot (with typing indicator for 2 seconds):
+"📊 Analyzing dashboard image...
+
+✓ Analysis Complete!
+
+Dashboard Status:
+- No warning lights detected
+- Temperature: Normal
+- Fuel level: Adequate
+- All systems operational
+
+Now let me create your complete diagnosis..."
+
+[Show loading spinner for 2 seconds]
+
+Then show DIAGNOSIS RESULT CARD (full screen modal or new screen):
+
+┌──────────────────────────────────────────────┐
+│          🔍 DIAGNOSIS COMPLETE               │
+├──────────────────────────────────────────────┤
+│                                              │
+│ Vehicle Details:                             │
+│ • Model: Suzuki Alto 2018                    │
+│ • Mileage: 45,000 km                         │
+│ • Transmission: Manual                       │
+│                                              │
+│ Fault Information:                           │
+│ • Category: BRAKE SYSTEM                     │
+│ • Fault Type: Brake Pad Wear                 │
+│ • Severity: ⚠️ MODERATE                      │
+│                                              │
+│ Symptoms Detected:                           │
+│ ✓ Grinding noise when braking                │
+│ ✓ Consistent across all speeds               │
+│ ✓ No warning lights                          │
+│ ✓ Normal pedal feel                          │
+│ ✓ Vehicle operational                        │
+│                                              │
+│ ⏱ Estimated Repair Time:                     │
+│ 1.0 - 1.5 hours                              │
+│ (Based on ML prediction model)               │
+│                                              │
+│ 🚦 Drivability Assessment:                   │
+│ ✅ DRIVABLE WITH CAUTION                     │
+│                                              │
+│ Safety Instructions:                         │
+│ • Drive at moderate speeds (< 60 km/h)       │
+│ • Increase following distance                │
+│ • Avoid sudden braking                       │
+│ • Seek repair within 2-3 days                │
+│                                              │
+│ 🧩 Parts Required:                           │
+│ • Brake Pads (Front)                         │
+│ • Brake Pads (Rear)                          │
+│                                              │
+│ Urgency Level: MEDIUM                        │
+│                                              │
+│ [Find Nearby Garages →]                      │
+│                                              │
+└──────────────────────────────────────────────┘
+
+Style this card with:
+- White background
+- Rounded corners (16px)
+- Shadow
+- Color-coded severity (orange for moderate)
+- Icons for each section
+- Green button at bottom
+
+────────────────────────────────────────────────────────────────
+
+CASE 2: ENGINE OVERHEATING (NOT DRIVABLE FLOW)
+────────────────────────────────────────────────────────────────
+
+Initial Message:
+Bot: "Hi Kavindu! 👋 I'm here to help with your Suzuki Alto.
+What seems to be the problem today?"
+
+User types: "My car is overheating and stopped running near Dondra"
+
+Bot Response (urgent style with warning colors):
+"⚠️ I understand this is urgent. Your car has overheated and stopped.
+Let me ask critical safety questions first.
+
+🚨 SAFETY CHECK:
+
+ Have you parked the car now? Are you safe?"
+[Yes] [No] buttons
+
+User selects: [Yes]
+
+Bot: " Are you inside or outside the vehicle right now?"
+[Inside] [Outside] buttons
+
+User selects: [Outside]
+
+Bot: " Is there steam or white smoke coming from the bonnet?"
+[Yes, I see steam] [No steam visible] buttons
+
+User selects: [Yes, I see steam]
+
+Bot (with red warning banner):
+"⚠️ IMPORTANT: Do NOT open the bonnet or restart the engine.
+
+ How fast were you driving when this happened?"
+[Show text input field with keyboard]
+
+User types: "About 60 km/h on the highway"
+
+Bot: "Thank you. Now please upload a photo of your dashboard so I can see the warning lights.
+
+📸 [Upload Dashboard Photo]"
+
+User uploads image (with red temperature warning light)
+
+Bot (with typing indicator):
+"📊 Analyzing dashboard image...
+
+⚠️ Critical Warnings Detected:
+
+🔴 Temperature Warning Light (RED)
+🟡 Check Engine Light (YELLOW)
+
+Analysis: Engine overheating condition confirmed
+
+Continuing diagnosis...
+
+ Did the engine completely stop, or is it still running?"
+[Completely stopped] [Still running but rough] buttons
+
+User selects: [Completely stopped]
+
+Bot: " Can you see any fluid leaking under the car?
+Please check safely from outside the vehicle."
+[Yes, I see coolant (green/yellow liquid)]
+[Yes, I see oil (dark liquid)]
+[No visible leaks]
+[I can't check safely] buttons
+
+User selects: [Yes, I see coolant (green/yellow liquid)]
+
+Bot: " Before the engine stopped, did you hear any unusual noises?"
+[Knocking/banging sounds]
+[Hissing sound]
+[No unusual sounds]
+[Not sure] buttons
+
+User selects: [Hissing sound]
+
+Bot: "How is your current location? Are you in a safe place?"
+[On main road - safe shoulder]
+[Highway - safe emergency lane]
+[Side road - safe area]
+[Unsafe location - need help urgently] buttons
+
+User selects: [On main road - safe shoulder]
+
+Bot: "✓ Thank you for providing all the information safely.
+Let me create your complete diagnosis now...
+
+🔄 Processing diagnosis..."
+
+[Show loading spinner for 3 seconds]
+
+Then show CRITICAL DIAGNOSIS CARD (full screen with red theme):
+
+┌──────────────────────────────────────────────┐
+│       🚨 CRITICAL DIAGNOSIS RESULT           │
+├──────────────────────────────────────────────┤
+│                                              │
+│ 🚗 Vehicle Information                       │
+│ • Model: Suzuki Alto 2018                    │
+│ • Mileage: 45,000 km                         │
+│ • Current Location: Near Dondra              │
+│                                              │
+│ ⚠️ Fault Information                         │
+│ • System: Engine Cooling System              │
+│ • Fault Type: Radiator/Coolant Failure       │
+│ • Severity: 🔴 MAJOR (Critical)              │
+│                                              │
+│ 🔥 Critical Symptoms Detected                │
+│ • Engine completely stopped                  │
+│ • Steam/white smoke from bonnet              │
+│ • Coolant leakage confirmed                  │
+│ • Temperature warning RED                    │
+│ • Hissing sound (pressure release)           │
+│ • Speed before failure: ~60 km/h             │
+│                                              │
+│ 📊 Dashboard Warning Analysis                │
+│ • 🔴 Engine Temperature: Critical            │
+│ • 🟡 Check Engine Light: Active              │
+│                                              │
+│ ⏱ Estimated Repair Time                      │
+│ • Duration: 2.0 - 3.0 hours                  │
+│ • Includes full system diagnosis             │
+│                                              │
+│ 🚦 Drivability Assessment                    │
+│ • Status: 🛑 NOT DRIVABLE                    │
+│ • Condition: EMERGENCY                       │
+│                                              │
+│ ⚠️ Immediate Safety Instructions             │
+│ • Do NOT restart the engine                  │
+│ • Do NOT open the bonnet                     │
+│ • Keep distance from vehicle front           │
+│ • Wait for professional mechanic             │
+│ • Do NOT attempt to drive                    │
+│                                              │
+│ 🔍 Likely Causes                             │
+│ • Radiator leakage/failure                   │
+│ • Water pump malfunction                     │
+│ • Thermostat failure                         │
+│ • Coolant hose rupture                       │
+│                                              │
+│ 🚨 Urgency: EMERGENCY                        │
+│ 📈 Confidence: 95%                           │
+│                                              │
+│ [Request Roadside Mechanic →]                │
+│                                              │
+└──────────────────────────────────────────────┘
+
+
+
+s
+
+
+3. GARAGE RECOMMENDATION (IF DRIVABLE):
+
+HARDCODED DEMO GARAGES (5 garages near SLIIT Malabe):
+```javascript
+const demoGarages = [
+  { id: 1, name: "Quick Fix Auto", lat: 6.9147, lng: 79.9729, distance: 2.1, rating: 4.3, availableMechanics: 3, status: "Available", waitTime: 0, specialties: ["Brake", "Engine"] },
+  { id: 2, name: "Express Auto Service", lat: 6.9200, lng: 79.9800, distance: 3.5, rating: 4.0, availableMechanics: 2, status: "Busy", waitTime: 57, specialties: ["Electrical", "Transmission"] },
+  { id: 3, name: "City Motors", lat: 6.9100, lng: 79.9850, distance: 5.2, rating: 4.6, availableMechanics: 5, status: "Available", waitTime: 0, specialties: ["Engine", "Brake", "Transmission"] },
+  { id: 4, name: "Malabe Auto Care", lat: 6.9180, lng: 79.9750, distance: 1.8, rating: 4.4, availableMechanics: 4, status: "Available", waitTime: 0, specialties: ["All"] },
+  { id: 5, name: "Sri Auto Workshop", lat: 6.9220, lng: 79.9820, distance: 4.1, rating: 3.9, availableMechanics: 2, status: "Busy", waitTime: 45, specialties: ["Engine", "Electrical"] }
+];
+```
+
+RANKING ALGORITHM (implement exactly):
+```javascript
+function rankGarages(garages, userLat, userLng) {
+  return garages.map(garage => {
+    // 1. Distance Score (40% weight)
+    const distanceScore = garage.distance;
+    
+    // 2. Waiting Time Score (30% weight) - assuming 8 min drive time for demo
+    const driveTime = garage.distance * 4; // rough estimate: 4 min per km
+    const totalWait = garage.waitTime + driveTime;
+    const waitScore = totalWait / 60;
+    
+    // 3. Rating Score (20% weight)
+    const ratingScore = 5 - garage.rating;
+    
+    // 4. Availability Score (10% weight)
+    const availabilityScore = 5 - garage.availableMechanics;
+    
+    // Composite Score (Lower is Better)
+    const compositeScore = 
+      (distanceScore * 0.4) +
+      (waitScore * 0.3) +
+      (ratingScore * 0.2) +
+      (availabilityScore * 0.1);
+    
+    return { ...garage, compositeScore, ETA: Math.round(driveTime) };
+  })
+  .sort((a, b) => a.compositeScore - b.compositeScore)
+  .slice(0, 3); // Top 3
+}
+```
+
+Display garage cards showing: Name, Rating (stars), Distance, ETA, Available mechanics, Status badge (Available=green, Busy=orange)
+Show garages on map with markers
+[Book This Garage] button → Create booking → Navigate to Booking Details
+
+4. MECHANIC DISPATCH (IF NOT DRIVABLE):
+
+HARDCODED DEMO MECHANICS:
+```javascript
+const demoMechanics = [
+  { id: 1, name: "John Silva", photo: "avatar1.png", rating: 4.5, experience: 8, distance: 1.5, ETA: 8, specialization: "Engine & Cooling", isOnline: true },
+  { id: 2, name: "Kasun Perera", photo: "avatar2.png", rating: 4.8, experience: 12, distance: 2.8, ETA: 12, specialization: "All Systems", isOnline: true },
+  { id: 3, name: "Ravi Kumar", photo: "avatar3.png", rating: 4.2, experience: 5, distance: 3.2, ETA: 15, specialization: "Brake & Electrical", isOnline: true }
+];
+```
+
+Mechanic cards: Photo, Name, Rating, Experience, Distance, ETA, Specialization
+[Request Mechanic] button → Create mechanic job request
+Show mechanic location on map
+Real-time job status: Pending → Mechanic Accepted → Arriving (ETA countdown) → On Site → Completed
+
+5. BOOKING MANAGEMENT:
+- Active Bookings tab: Shows current job with status progress bar
+- Job Details: Garage/Mechanic info, Vehicle, Diagnosis, Status updates, Call button
+- Real-time updates via WebSocket
+- After completion: Rate & Review screen (1-5 stars, review text)
+- Payment section: View bill amount, Payment status toggle (not editable by driver)
+
+6. REAL-TIME FEATURES:
+- Socket.io connection on login
+- Listen for: 'booking-status-update', 'mechanic-assigned', 'mechanic-location', 'service-notes-added'
+- Toast notifications for updates
+- In-app chat with garage/mechanic (simple message list + input)
+
+DESIGN:
+- Bottom tab navigation: Home | Bookings | Chat | Profile
+- Chat interface with bubble messages, button options, loading indicators
+- Diagnosis card: white bg, rounded corners, shadow, color-coded severity badges
+- Touch-friendly UI (44px min button height)
+- Loading states, error handling, empty states
