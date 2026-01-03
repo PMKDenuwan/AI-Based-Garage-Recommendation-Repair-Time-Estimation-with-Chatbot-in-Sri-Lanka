@@ -1,0 +1,138 @@
+🚗 EXACT GARAGE RECOMMENDATION – LIVE DEMO (VIVA READY)
+📍 Driver Location
+
+SLIIT, New Kandy Road, Malabe
+6.914833, 79.972861
+
+🔢 STEP 1: Convert values to SAME UNITS
+Garage	Distance (km)	Waiting (min)	Arrival (min)	Rating	Mechanics
+G1	0.50	15	2	3.2	2
+G2	0.55	0	2	4.2	3
+G3	0.60	15	3	4.4	5
+G4	0.60	0	3	4.0	3
+G5	1.70	15	6	3.5	4
+🔢 STEP 2: Find MAX values (for normalization)
+maxDistance = 1.70 km
+maxWaiting  = 15 min
+maxArrival  = 6 min
+maxMechanics = 5
+
+⚖️ STEP 3: Weights (FIXED)
+Distance  = 0.25
+Waiting   = 0.30
+Arrival   = 0.15
+Rating    = 0.20
+Mechanics = 0.10
+
+🧮 STEP 4: Normalization Formulas
+distanceNorm   = distance / maxDistance
+waitNorm       = waiting / maxWaiting
+arrivalNorm    = arrival / maxArrival
+ratingNorm     = (5 - rating) / 5
+mechanicNorm   = (maxMechanics - mechanics) / maxMechanics
+
+🧮 STEP 5: FINAL SCORE CALCULATION
+🏚️ Garage 01
+distance = 0.50 / 1.70 = 0.29
+waiting  = 15 / 15 = 1.00
+arrival  = 2 / 6 = 0.33
+rating   = (5 - 3.2)/5 = 0.36
+mechanic = (5 - 2)/5 = 0.60
+
+
+Final Score
+
+(0.29×0.25)+(1.00×0.30)+(0.33×0.15)+(0.36×0.20)+(0.60×0.10)
+= 0.553
+
+🏚️ Garage 02
+distance = 0.55 / 1.70 = 0.32
+waiting  = 0 / 15 = 0
+arrival  = 2 / 6 = 0.33
+rating   = (5 - 4.2)/5 = 0.16
+mechanic = (5 - 3)/5 = 0.40
+
+
+Final Score
+
+= 0.214 ✅
+
+🏚️ Garage 03
+distance = 0.60 / 1.70 = 0.35
+waiting  = 15 / 15 = 1
+arrival  = 3 / 6 = 0.50
+rating   = (5 - 4.4)/5 = 0.12
+mechanic = (5 - 5)/5 = 0
+
+
+Final Score
+
+= 0.487
+
+🏚️ Garage 04
+distance = 0.60 / 1.70 = 0.35
+waiting  = 0 / 15 = 0
+arrival  = 3 / 6 = 0.50
+rating   = (5 - 4.0)/5 = 0.20
+mechanic = (5 - 3)/5 = 0.40
+
+
+Final Score
+
+= 0.256
+
+🏚️ Garage 05
+distance = 1.70 / 1.70 = 1
+waiting  = 15 / 15 = 1
+arrival  = 6 / 6 = 1
+rating   = (5 - 3.5)/5 = 0.30
+mechanic = (5 - 4)/5 = 0.20
+
+
+Final Score
+
+= 0.790 ❌
+
+🏆 FINAL RANKING (LOWEST SCORE = BEST)
+Rank	Garage	Final Score
+🥇 1	Garage 02	0.214
+🥈 2	Garage 04	0.256
+🥉 3	Garage 03	0.487
+4	Garage 01	0.553
+5	Garage 05	0.790
+🔥 VIVA KILLER POINT (VERY IMPORTANT)
+
+👉 Garage 01 is the nearest (500m)
+❌ BUT not recommended due to:
+
+High waiting time
+
+Low rating
+
+Fewer mechanics
+
+✅ Garage 02 wins because:
+
+Zero waiting
+
+High rating
+
+Fast arrival
+
+Balanced distance
+
+🎤 EXACT VIVA ANSWER (MEMORIZE)
+
+“Our system does not recommend the nearest garage. It calculates a weighted composite score using distance, waiting time, arrival time, user ratings, and mechanic availability, then recommends the garage with the lowest score.”
+
+✅ THIS IS:
+
+Sharp ✅
+
+Numerical ✅
+
+Logical ✅
+
+Examiner-proof ✅
+
+Industry-style ✅
